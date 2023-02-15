@@ -38,6 +38,6 @@ def construct_index(directory_path):
 def ask_lenny():
     index = GPTSimpleVectorIndex.load_from_disk('index.json')
     while True: 
-        query = input("What do you want to ask Lenny? ")
+        query = input("What do you want to ask ChatAfrica? ")
         response = index.query(query, response_mode="compact", verbose=False)
-        display(Markdown(f"Lenny Bot says: <b>{response.response}</b>"))
+        display(Markdown(f"ChatAfrica Bot says: <b>{response.response}</b>"))
