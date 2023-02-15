@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://gmpg.org/xfn/11" rel="profile"/>
+  <title>
+   Module Seven (A) – Exploring Africa
+  </title>
+  <meta content="max-image-preview:large" name="robots"/>
+  <link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+  <link href="//s.w.org" rel="dns-prefetch"/>
+  <link href="http://exploringafrica.matrix.msu.edu/feed/" rel="alternate" title="Exploring Africa » Feed" type="application/rss+xml"/>
+  <link href="http://exploringafrica.matrix.msu.edu/comments/feed/" rel="alternate" title="Exploring Africa » Comments Feed" type="application/rss+xml"/>
+  <script type="text/javascript">
+   window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/exploringafrica.matrix.msu.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+   img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+  </style>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+  <style id="wp-block-library-theme-inline-css" type="text/css">
+   .wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+  </style>
+  <style id="global-styles-inline-css" type="text/css">
+   body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+  </style>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/InteractiveMapBuilder/css/meisterbox.css?ver=2.0" id="interactive_map_builder-meisterbox-styles-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/captcha/css/front_end_style.css?ver=4.4.5" id="cptch_stylesheet-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-includes/css/dashicons.min.css?ver=6.0.2" id="dashicons-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/captcha/css/desktop_style.css?ver=4.4.5" id="cptch_desktop_style-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/contact-form-plugin/css/form_style.css?ver=4.2.4" id="cntctfrm_form_style-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17" id="foobox-free-min-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/plugins/wordpress-simple-paypal-shopping-cart/wp_shopping_cart_style.css?ver=4.5.9" id="wspsc-style-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/style.css?ver=6.0.2" id="accelerate_style-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C100%7CRoboto+Slab%3A700%2C400&amp;display=swap&amp;ver=6.0.2" id="accelerate_googlefonts-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/fontawesome/css/font-awesome.css?ver=4.7.0" id="accelerate-fontawesome-css" media="all" rel="stylesheet" type="text/css"/>
+  <script id="jquery-core-js" src="http://exploringafrica.matrix.msu.edu/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" type="text/javascript">
+  </script>
+  <script id="jquery-migrate-js" src="http://exploringafrica.matrix.msu.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" type="text/javascript">
+  </script>
+  <script id="accelerate-custom-js" src="http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/js/accelerate-custom.js?ver=6.0.2" type="text/javascript">
+  </script>
+  <!--[if lte IE 8]>
+<script type='text/javascript' src='http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/js/html5shiv.js?ver=3.7.3' id='html5shiv-js'></script>
+<![endif]-->
+  <script id="foobox-free-min-js-before" type="text/javascript">
+   /* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+  </script>
+  <script id="foobox-free-min-js" src="http://exploringafrica.matrix.msu.edu/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17" type="text/javascript">
+  </script>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-json/" rel="https://api.w.org/"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-json/wp/v2/pages/79" rel="alternate" type="application/json"/>
+  <link href="https://exploringafrica.matrix.msu.edu/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+  <meta content="WordPress 6.0.2" name="generator"/>
+  <link href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-seven/" rel="canonical"/>
+  <link href="http://exploringafrica.matrix.msu.edu/?p=79" rel="shortlink"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fexploringafrica.matrix.msu.edu%2Fcurriculum%2Funit-two%2Fmodule-seven%2F" rel="alternate" type="application/json+oembed"/>
+  <link href="http://exploringafrica.matrix.msu.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fexploringafrica.matrix.msu.edu%2Fcurriculum%2Funit-two%2Fmodule-seven%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+  <!-- GA Google Analytics @ https://m0n.co/ga -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NGXKDE28V9">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-NGXKDE28V9');
+  </script>
+  <!-- WP Simple Shopping Cart plugin v4.5.9 - https://www.tipsandtricks-hq.com/wordpress-simple-paypal-shopping-cart-plugin-768/ -->
+  <script type="text/javascript">
+   <!--
+	//
+	function ReadForm (obj1, tst)
+	{
+	    // Read the user form
+	    var i,j,pos;
+	    val_total="";val_combo="";
+
+	    for (i=0; i<obj1.length; i++)
+	    {
+	        // run entire form
+	        obj = obj1.elements[i];           // a form element
+
+	        if (obj.type == "select-one")
+	        {   // just selects
+	            if (obj.name == "quantity" ||
+	                obj.name == "amount") continue;
+		        pos = obj.selectedIndex;        // which option selected
+		        val = obj.options[pos].value;   // selected value
+		        val_combo = val_combo + " (" + val + ")";
+	        }
+	    }
+		// Now summarize everything we have processed above
+		val_total = obj1.product_tmp.value + val_combo;
+		obj1.wspsc_product.value = val_total;
+	}
+	//-->
+  </script>
+  <style type="text/css">
+   .accelerate-button,blockquote,button,input[type=button],input[type=reset],input[type=submit]{background-color:#c81e1d}a{color:#c81e1d}#page{border-top:3px solid #c81e1d}#site-title a:hover{color:#c81e1d}#search-form span,.main-navigation a:hover,.main-navigation ul li ul li a:hover,.main-navigation ul li ul li:hover>a,.main-navigation ul li.current-menu-ancestor a,.main-navigation ul li.current-menu-item a,.main-navigation ul li.current-menu-item ul li a:hover,.main-navigation ul li.current_page_ancestor a,.main-navigation ul li.current_page_item a,.main-navigation ul li:hover>a,.main-small-navigation li:hover > a{background-color:#c81e1d}.site-header .menu-toggle:before{color:#c81e1d}.main-small-navigation li:hover{background-color:#c81e1d}.main-small-navigation ul>.current-menu-item,.main-small-navigation ul>.current_page_item{background:#c81e1d}.footer-menu a:hover,.footer-menu ul li.current-menu-ancestor a,.footer-menu ul li.current-menu-item a,.footer-menu ul li.current_page_ancestor a,.footer-menu ul li.current_page_item a,.footer-menu ul li:hover>a{color:#c81e1d}#featured-slider .slider-read-more-button,.slider-title-head .entry-title a{background-color:#c81e1d}a.slide-prev,a.slide-next,.slider-title-head .entry-title a{background-color:#c81e1d}#controllers a.active,#controllers a:hover{background-color:#c81e1d;color:#c81e1d}.format-link .entry-content a{background-color:#c81e1d}#secondary .widget_featured_single_post h3.widget-title a:hover,.widget_image_service_block .entry-title a:hover{color:#c81e1d}.pagination span{background-color:#c81e1d}.pagination a span:hover{color:#c81e1d;border-color:#c81e1d}#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover{color:#c81e1d}.comments-area .comment-author-link span{background-color:#c81e1d}#wp-calendar #today,.comment .comment-reply-link:hover,.nav-next a,.nav-previous a{color:#c81e1d}.widget-title span{border-bottom:2px solid #c81e1d}#secondary h3 span:before,.footer-widgets-area h3 span:before{color:#c81e1d}#secondary .accelerate_tagcloud_widget a:hover,.footer-widgets-area .accelerate_tagcloud_widget a:hover{background-color:#c81e1d}.footer-widgets-area a:hover{color:#c81e1d}.footer-socket-wrapper{border-top:3px solid #c81e1d}.footer-socket-wrapper .copyright a:hover{color:#c81e1d}a#scroll-up{background-color:#c81e1d}.entry-meta .byline i,.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover{color:#c81e1d}.entry-meta .post-format i{background-color:#c81e1d}.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,.main-navigation li.menu-item-has-children:hover,.entry-meta .tag-links a:hover{color:#c81e1d}.more-link span,.read-more{background-color:#c81e1d}.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce span.onsale {background-color: #c81e1d;}.woocommerce ul.products li.product .price .amount,.entry-summary .price .amount,.woocommerce .woocommerce-message::before{color: #c81e1d;},.woocommerce .woocommerce-message { border-top-color: #c81e1d;}
+  </style>
+  <style id="wp-custom-css" type="text/css">
+   .entry-content li {margin-bottom: 15px;}
+#header-text-nav-container {background-color: #ededed;}.entry-content li {margin-bottom: 15px;}
+#header-text-nav-container {background-color: #ededed;}
+
+.textwidget video {
+width: 100%;
+}
+  </style>
+ </head>
+ <body class="page-template-default page page-id-79 page-parent page-child parent-pageid-46 wp-custom-logo wp-embed-responsive better-responsive-menu wide">
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-dark-grayscale">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0 0.49803921568627" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 0.49803921568627" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0 0.49803921568627" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-grayscale">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0 1" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 1" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0 1" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-purple-yellow">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0.54901960784314 0.98823529411765" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 1" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0.71764705882353 0.25490196078431" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-blue-red">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0 1" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 0.27843137254902" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0.5921568627451 0.27843137254902" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-midnight">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0 0" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 0.64705882352941" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0 1" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-magenta-yellow">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0.78039215686275 1" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 0.94901960784314" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0.35294117647059 0.47058823529412" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-purple-green">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0.65098039215686 0.40392156862745" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 1" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0.44705882352941 0.4" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <svg focusable="false" height="0" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" viewbox="0 0 0 0" width="0" xmlns="http://www.w3.org/2000/svg">
+   <defs>
+    <filter id="wp-duotone-blue-orange">
+     <fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+     </fecolormatrix>
+     <fecomponenttransfer color-interpolation-filters="sRGB">
+      <fefuncr tablevalues="0.098039215686275 1" type="table">
+      </fefuncr>
+      <fefuncg tablevalues="0 0.66274509803922" type="table">
+      </fefuncg>
+      <fefuncb tablevalues="0.84705882352941 0.41960784313725" type="table">
+      </fefuncb>
+      <fefunca tablevalues="1 1" type="table">
+      </fefunca>
+     </fecomponenttransfer>
+     <fecomposite in2="SourceGraphic" operator="in">
+     </fecomposite>
+    </filter>
+   </defs>
+  </svg>
+  <div class="hfeed site" id="page">
+   <a class="skip-link screen-reader-text" href="#main">
+    Skip to content
+   </a>
+   <header class="site-header clearfix" id="masthead">
+    <div class="clearfix" id="header-text-nav-container">
+     <div class="inner-wrap">
+      <div class="clearfix" id="header-text-nav-wrap">
+       <div id="header-left-section">
+        <div id="header-logo-image">
+         <a class="custom-logo-link" href="http://exploringafrica.matrix.msu.edu/" rel="home">
+          <img alt="Exploring Africa" class="custom-logo" height="156" src="http://exploringafrica.matrix.msu.edu/wp-content/uploads/2015/03/exploring-africa.png" width="300"/>
+         </a>
+        </div>
+        <!-- #header-logo-image -->
+        <div class="screen-reader-text" id="header-text">
+         <h3 id="site-title">
+          <a href="http://exploringafrica.matrix.msu.edu/" rel="home" title="Exploring Africa">
+           Exploring Africa
+          </a>
+         </h3>
+        </div>
+        <!-- #header-text -->
+       </div>
+       <!-- #header-left-section -->
+       <div id="header-right-section">
+        <div class="clearfix" id="header-right-sidebar">
+         <aside class="widget widget_search" id="search-2">
+          <form action="http://exploringafrica.matrix.msu.edu/" class="searchform clearfix" id="search-form" method="get">
+           <input class="s field" name="s" placeholder="Search" type="text"/>
+           <input class="submit" id="search-submit" name="submit" type="submit" value="Search"/>
+          </form>
+          <!-- .searchform -->
+         </aside>
+        </div>
+       </div>
+       <!-- #header-right-section -->
+      </div>
+      <!-- #header-text-nav-wrap -->
+     </div>
+     <!-- .inner-wrap -->
+     <nav class="main-navigation inner-wrap clearfix" id="site-navigation" role="navigation">
+      <h3 class="menu-toggle">
+       Menu
+      </h3>
+      <div class="menu-exafr-container">
+       <ul class="menu" id="menu-exafr">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-446" id="menu-item-446">
+         <a href="http://exploringafrica.matrix.msu.edu/">
+          Home
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-448" id="menu-item-448">
+         <a href="http://exploringafrica.matrix.msu.edu/curriculum/">
+          Curriculum
+         </a>
+         <ul class="sub-menu">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-452" id="menu-item-452">
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/">
+            Unit One: Why Study Africa
+           </a>
+           <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3814" id="menu-item-3814">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/module-one/">
+              Module 1: Exploring the Diversity of Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3815" id="menu-item-3815">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/module-two/">
+              Module 2: Learning about Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3816" id="menu-item-3816">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/module-three/">
+              Module 3: Examining Africa’s Diversity
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3817" id="menu-item-3817">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/module-four/">
+              Module 4: Examining Africa’s Global Connections
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3818" id="menu-item-3818">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-1/module-five/">
+              Module 5: Looking Back
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-453" id="menu-item-453">
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/">
+            Unit Two: Studying Africa Through Social Studies
+           </a>
+           <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3822" id="menu-item-3822">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-six/">
+              Module 6: African Geography
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-79 current_page_item menu-item-3823" id="menu-item-3823">
+             <a aria-current="page" href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-seven/">
+              Module 7(A): African History until 1500
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3824" id="menu-item-3824">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-seven-b/">
+              Module 7(B): African History 1500 to the Present
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3820" id="menu-item-3820">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-eight/">
+              Module 8: Culture and Society in Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3821" id="menu-item-3821">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-nine/">
+              Module 9: African Economies
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3819" id="menu-item-3819">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-ten/">
+              Module 10: African Politics and Government
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-449" id="menu-item-449">
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/">
+            Unit Three: Studying Africa through the Humanities
+           </a>
+           <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3825" id="menu-item-3825">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/module-eleven/">
+              Module 11: African Literatures
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3826" id="menu-item-3826">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/module-twelve/">
+              Module 12: African Art
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3827" id="menu-item-3827">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/module-thriteen/">
+              Module 13: African Music
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3828" id="menu-item-3828">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/module-fourteen/">
+              Module 14: Religion in Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3829" id="menu-item-3829">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-three/module-15/">
+              Module 15: Africa and the World
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-450" id="menu-item-450">
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/">
+            Unit Four: Regional Perspectives
+           </a>
+           <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3842" id="menu-item-3842">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/module-sixteen/">
+              Module 16: North Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3843" id="menu-item-3843">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/module-seventeen/">
+              Module 17: West Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3832" id="menu-item-3832">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/module-eighteen/">
+              Module 18: Central Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3833" id="menu-item-3833">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/module-nineteen/">
+              Module 19: East Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3834" id="menu-item-3834">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-four/module-twenty/">
+              Module 20: Southern Africa
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-451" id="menu-item-451">
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/">
+            Unit Five: Country Case Studies
+           </a>
+           <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3841" id="menu-item-3841">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-21/">
+              Module 21: Egypt
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3830" id="menu-item-3830">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-two/">
+              Module 22: Ethiopia
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3831" id="menu-item-3831">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-three/">
+              Module 23: Senegal
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6126" id="menu-item-6126">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-four/">
+              Module 24: Ghana
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3835" id="menu-item-3835">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-five/">
+              Module 25: Nigeria
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3836" id="menu-item-3836">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-six/">
+              Module 26: Tanzania
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3837" id="menu-item-3837">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-seven/">
+              Module 27: Congo
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3838" id="menu-item-3838">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-eight/">
+              Module 28: Kenya
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3839" id="menu-item-3839">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-twenty-nine/">
+              Module 29: South Africa
+             </a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3840" id="menu-item-3840">
+             <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-five/module-thrity/">
+              Module 30: Zimbabwe
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447" id="menu-item-447">
+         <a href="http://exploringafrica.matrix.msu.edu/country-overview/">
+          Country Overview
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455" id="menu-item-455">
+         <a href="http://exploringafrica.matrix.msu.edu/news/">
+          News
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-456" id="menu-item-456">
+         <a href="http://exploringafrica.matrix.msu.edu/special-topics/">
+          Special Topics
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300279" id="menu-item-300279">
+         <a href="http://exploringafrica.matrix.msu.edu/curriculum/lesson-plans-3/">
+          Lesson Plans
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-459" id="menu-item-459">
+         <a href="http://exploringafrica.matrix.msu.edu/store/">
+          Store
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4073" id="menu-item-4073">
+         <a href="http://exploringafrica.matrix.msu.edu/acknowledgements/">
+          Acknowledgements
+         </a>
+        </li>
+       </ul>
+      </div>
+     </nav>
+    </div>
+    <!-- #header-text-nav-container -->
+   </header>
+   <div class="clearfix" id="main">
+    <div class="inner-wrap clearfix">
+     <div id="primary">
+      <div class="clearfix" id="content">
+       <article class="post-79 page type-page status-publish hentry" id="post-79">
+        <header class="entry-header">
+         <h1 class="entry-title">
+          Module Seven (A)
+         </h1>
+        </header>
+        <div class="entry-content clearfix">
+         <h1>
+         </h1>
+         <h2>
+          Introduction: Early African History, Until 16th Century CE
+         </h2>
+         <p>
+          <strong>
+           Overview:
+          </strong>
+          This module takes a look at what history is and what history tells us about Africa prior to the 16th century CE. History is commonly defined as a record or analysis of change for a given society, nation-state, region, etc. Until recently, Africa has frequently been portrayed in the West as cultures and societies sedimented in time and space before the arrival of Europeans on the continent in the 15th century CE. African peoples were also portrayed as homogeneous, and the tremendous diversity amongst people who live and have lived on the African continent was neglected. As historians have more recently gone back to reanalyze African history, they have better represented the fact that Africa has changed over time, and that it has been a place of diverse groups of people throughout a long and rich history. Unfortunately, African history has often focused on a few great civilizations and excluded the study of other regions and social organizations. In this module, we will look at five of the great civilizations in early African history as well as discuss the history of other regions of Africa contemporary to these great civilizations. As you move through this module, you should grasp a sense of the rich, diverse, and dynamic history of Africa, as well as, the tools that historians use to be able to tell us this history.
+         </p>
+         <p>
+          This module is divided up into five activities. The first activity will examine the tools historians use to tell us about African history. The second will look at the ancient Egyptian civilization in the Nile valley between approximately 3100 and 332 BCE. In addition, there will be a discussion of what was happening in other parts of Africa at the same time. The third activity will examine the Ghana, Mali, and Songhay kingdoms-three important great kingdoms of West Africa. As in activity two, this activity will include a discussion of the history of other parts of Africa at the same time. The fourth activity will look at the kingdom of Great Zimbabwe from approximately the 12th to the 15th century CE, as well as, glimpses of other regions of Africa at the same time. Finally, the fifth activity will be a review for bringing together the information learned in this module.
+         </p>
+         <p>
+          <b>
+           PURPOSE:
+          </b>
+          Module 7A: Early African History, Until 16th Century CE will discuss some of both the more well-known and less well-known points of interest throughout the history of Africa until the arrival of Europeans in sub-Saharan Africa in the 15th century CE. This period of African history has often been grossly misrepresented as timeless, stagnate, and primitive. In an attempt to better represent early African history, this module will look at its richness, diversity, and dynamism. Much historical work has been done recently to try to portray the early history of Africa more accurately.
+         </p>
+         <p>
+          Another misfortune of African history, as it has often been taught, is that its great civilizations and kingdoms are focused on to the exclusion of other areas of the continent that were less centralized. These areas have just as rich a history. As we look at several of these great civilizations and kingdoms in this module, we will also highlight other less well-known stories.
+         </p>
+         <p>
+          Students will be encouraged throughout the module to not only learn the historical material that we have presented, but also to think about the tools that historians use and the various interpretations that historians have in constructing and explaining histories. Moreover, students are encouraged on to use historians’ tools and resources (including sources on the internet) on their own to further investigate aspects of African history that are of interest to them.
+         </p>
+         <p>
+          Detailed Teacher Notes are included to provide additional information about some of the themes and concepts interwoven throughout this module. In addition, each activity has a Teacher Page that provides further background and class discussion materials related to that activity.
+         </p>
+         <p>
+          <strong>
+           OBJECTIVES:
+          </strong>
+          After completing this module, students will have gained the following:
+         </p>
+         <ol>
+          <li>
+           An understanding of some of the prominent tools that historians use to learn about the past.
+          </li>
+          <li>
+           An understanding of how each historian has his/her own unique interpretations, perspectives, and biases in the work that s/he does, and how that history is constantly being revised with new evidence and interpretations.
+          </li>
+          <li>
+           Knowledge of five great kingdoms and civilizations on the African continent prior to the 16th century CE.
+          </li>
+          <li>
+           Knowledge of other areas of Africa that existed during the same time frame as the great kingdoms and civilizations, which are generally less well-known but important parts of African history.
+          </li>
+         </ol>
+         <p>
+          <strong>
+           FOCUS QUESTIONS:
+          </strong>
+         </p>
+         <ol>
+          <li>
+           What tools do historians use, and how do these affect the way a historian interprets clues and records from the past?
+          </li>
+          <li>
+           What are some of the great civilizations and kingdoms of early African history?
+          </li>
+          <li>
+           What was happening in other parts of Africa during the time of these great civilizations and kingdoms?
+          </li>
+         </ol>
+         <p>
+          Begin the module with
+          <a href="http://exploringafrica.matrix.msu.edu/activity-one-page-2-how-do-we-know-africa-has-a-history-engage/">
+           Activity On
+          </a>
+          e or go on to one of the other activities
+         </p>
+         <ul>
+          <li>
+           <a href="http://exploringafrica.matrix.msu.edu/activity-one-page-2-how-do-we-know-africa-has-a-history-engage/" title="Module Seven (A), Activity One">
+            Activity One: How Do We Know Africa has a History?
+           </a>
+          </li>
+          <li>
+           <a href="http://exploringafrica.matrix.msu.edu/curriculum/unit-two/module-seven/module-seven-activity-two/" title="Module Seven (A), Activity Two">
+            Activity Two: The Great Egyptian Civilization
+           </a>
+          </li>
+          <li>
+           <a href="http://exploringafrica.matrix.msu.edu/activity-3-history-of-africa-during-the-time-of-the-great-west-african-kingdoms-expand/" title="Module Seven (A), Activity Three">
+            Activity Three: The Great West African Kingdoms
+           </a>
+          </li>
+          <li>
+           <a href="http://exploringafrica.matrix.msu.edu/history-of-africa-during-the-time-of-the-kingdom-of-great-zimbabweexpand/" title="Module Seven (A), Activity Four">
+            Activity Four: The Kingdom of Great Zimbabwe
+           </a>
+          </li>
+          <li>
+           <a href="http://exploringafrica.matrix.msu.edu/activity-5-bringing-it-all-together-evaluate/">
+            Activity Five: Bringing it all Together
+           </a>
+          </li>
+         </ul>
+         <p>
+          <a href="http://exploringafrica.matrix.msu.edu/teacher-notes-module-7a/">
+           Teacher Notes
+          </a>
+         </p>
+        </div>
+       </article>
+      </div>
+      <!-- #content -->
+     </div>
+     <!-- #primary -->
+     <div id="secondary">
+      <aside class="widget widget_advanced_menu" id="advanced_menu-2">
+       <h3 class="widget-title">
+        <span>
+         Countries
+        </span>
+       </h3>
+       <div class="menu-countries-container">
+        <select class="menu amw" id="amw-2" onchange="onNavChange(this)">
+         <option value="">
+          Select
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798" id="menu-item-798" value="http://exploringafrica.matrix.msu.edu/country-overview/algeria/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/algeria/">
+           Algeria
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-799" id="menu-item-799" value="http://exploringafrica.matrix.msu.edu/country-overview/angola/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/angola/">
+           Angola
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-800" id="menu-item-800" value="http://exploringafrica.matrix.msu.edu/country-overview/benin/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/benin/">
+           Benin
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-801" id="menu-item-801" value="http://exploringafrica.matrix.msu.edu/country-overview/botswana/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/botswana/">
+           Botswana
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802" id="menu-item-802" value="http://exploringafrica.matrix.msu.edu/country-overview/burkina-faso/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/burkina-faso/">
+           Burkina Faso
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-803" id="menu-item-803" value="http://exploringafrica.matrix.msu.edu/country-overview/burundi/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/burundi/">
+           Burundi
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-804" id="menu-item-804" value="http://exploringafrica.matrix.msu.edu/country-overview/cameroon/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/cameroon/">
+           Cameroon
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-805" id="menu-item-805" value="http://exploringafrica.matrix.msu.edu/country-overview/cape-verde/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/cape-verde/">
+           Cabo Verde (Cape Verde)
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-806" id="menu-item-806" value="http://exploringafrica.matrix.msu.edu/country-overview/central-african-republic/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/central-african-republic/">
+           Central African Republic
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807" id="menu-item-807" value="http://exploringafrica.matrix.msu.edu/country-overview/chad/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/chad/">
+           Chad
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808" id="menu-item-808" value="http://exploringafrica.matrix.msu.edu/country-overview/comoros/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/comoros/">
+           Comoros
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-834" id="menu-item-834" value="http://exploringafrica.matrix.msu.edu/country-overview/congo/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/congo/">
+           Congo (Republic of Congo)
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809" id="menu-item-809" value="http://exploringafrica.matrix.msu.edu/country-overview/cote-divoire/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/cote-divoire/">
+           Cote d’Ivoire
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810" id="menu-item-810" value="http://exploringafrica.matrix.msu.edu/country-overview/democratic-republic-of-the-congo/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/democratic-republic-of-the-congo/">
+           Democratic Republic of the Congo
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811" id="menu-item-811" value="http://exploringafrica.matrix.msu.edu/country-overview/djibouti/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/djibouti/">
+           Djibouti
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812" id="menu-item-812" value="http://exploringafrica.matrix.msu.edu/country-overview/egypt/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/egypt/">
+           Egypt
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813" id="menu-item-813" value="http://exploringafrica.matrix.msu.edu/country-overview/equatorial-guinea/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/equatorial-guinea/">
+           Equatorial Guinea
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814" id="menu-item-814" value="http://exploringafrica.matrix.msu.edu/country-overview/eritrea/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/eritrea/">
+           Eritrea
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815" id="menu-item-815" value="http://exploringafrica.matrix.msu.edu/country-overview/ethiopia/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/ethiopia/">
+           Ethiopia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-816" id="menu-item-816" value="http://exploringafrica.matrix.msu.edu/country-overview/gabon/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/gabon/">
+           Gabon
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928" id="menu-item-928" value="http://exploringafrica.matrix.msu.edu/gambia/">
+          <a href="http://exploringafrica.matrix.msu.edu/gambia/">
+           The Gambia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-817" id="menu-item-817" value="http://exploringafrica.matrix.msu.edu/country-overview/ghana/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/ghana/">
+           Ghana
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-818" id="menu-item-818" value="http://exploringafrica.matrix.msu.edu/country-overview/guinea/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/guinea/">
+           Guinea
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819" id="menu-item-819" value="http://exploringafrica.matrix.msu.edu/country-overview/guinea-bissau/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/guinea-bissau/">
+           Guinea-Bissau
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-820" id="menu-item-820" value="http://exploringafrica.matrix.msu.edu/country-overview/kenya/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/kenya/">
+           Kenya
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-821" id="menu-item-821" value="http://exploringafrica.matrix.msu.edu/country-overview/lesotho/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/lesotho/">
+           Lesotho
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822" id="menu-item-822" value="http://exploringafrica.matrix.msu.edu/country-overview/liberia/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/liberia/">
+           Liberia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823" id="menu-item-823" value="http://exploringafrica.matrix.msu.edu/country-overview/libya/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/libya/">
+           Libya
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824" id="menu-item-824" value="http://exploringafrica.matrix.msu.edu/country-overview/madagascar/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/madagascar/">
+           Madagascar
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-825" id="menu-item-825" value="http://exploringafrica.matrix.msu.edu/country-overview/malawi/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/malawi/">
+           Malawi
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-826" id="menu-item-826" value="http://exploringafrica.matrix.msu.edu/country-overview/mali/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/mali/">
+           Mali
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-827" id="menu-item-827" value="http://exploringafrica.matrix.msu.edu/country-overview/mauritania/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/mauritania/">
+           Mauritania
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-828" id="menu-item-828" value="http://exploringafrica.matrix.msu.edu/country-overview/mauritius/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/mauritius/">
+           Mauritius
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-829" id="menu-item-829" value="http://exploringafrica.matrix.msu.edu/country-overview/morocco/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/morocco/">
+           Morocco
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-830" id="menu-item-830" value="http://exploringafrica.matrix.msu.edu/country-overview/mozambique/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/mozambique/">
+           Mozambique
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831" id="menu-item-831" value="http://exploringafrica.matrix.msu.edu/country-overview/namibia/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/namibia/">
+           Namibia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-832" id="menu-item-832" value="http://exploringafrica.matrix.msu.edu/country-overview/niger/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/niger/">
+           Niger
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-833" id="menu-item-833" value="http://exploringafrica.matrix.msu.edu/country-overview/nigeria/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/nigeria/">
+           Nigeria
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-835" id="menu-item-835" value="http://exploringafrica.matrix.msu.edu/country-overview/rwanda/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/rwanda/">
+           Rwanda
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-836" id="menu-item-836" value="http://exploringafrica.matrix.msu.edu/country-overview/sao-tome-and-the-principe/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/sao-tome-and-the-principe/">
+           São Tomé and Príncipe
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-837" id="menu-item-837" value="http://exploringafrica.matrix.msu.edu/country-overview/senegal/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/senegal/">
+           Senegal
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-838" id="menu-item-838" value="http://exploringafrica.matrix.msu.edu/country-overview/seychelles/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/seychelles/">
+           Seychelles
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-839" id="menu-item-839" value="http://exploringafrica.matrix.msu.edu/country-overview/sierra-leone/">
+          <a href="http://exploringafrica.matrix.msu.edu/country-overview/sierra-leone/">
+           Sierra Leone
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933" id="menu-item-933" value="http://exploringafrica.matrix.msu.edu/somalia/">
+          <a href="http://exploringafrica.matrix.msu.edu/somalia/">
+           Somalia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-932" id="menu-item-932" value="http://exploringafrica.matrix.msu.edu/south-africa/">
+          <a href="http://exploringafrica.matrix.msu.edu/south-africa/">
+           South Africa
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3858" id="menu-item-3858" value="http://exploringafrica.matrix.msu.edu/south-sudan/">
+          <a href="http://exploringafrica.matrix.msu.edu/south-sudan/">
+           South Sudan
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931" id="menu-item-931" value="http://exploringafrica.matrix.msu.edu/sudan/">
+          <a href="http://exploringafrica.matrix.msu.edu/sudan/">
+           Sudan
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-930" id="menu-item-930" value="http://exploringafrica.matrix.msu.edu/swaziland/">
+          <a href="http://exploringafrica.matrix.msu.edu/swaziland/">
+           Swaziland (Eswatini)
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929" id="menu-item-929" value="http://exploringafrica.matrix.msu.edu/tanzania/">
+          <a href="http://exploringafrica.matrix.msu.edu/tanzania/">
+           Tanzania
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-927" id="menu-item-927" value="http://exploringafrica.matrix.msu.edu/togo/">
+          <a href="http://exploringafrica.matrix.msu.edu/togo/">
+           Togo
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926" id="menu-item-926" value="http://exploringafrica.matrix.msu.edu/tunisia/">
+          <a href="http://exploringafrica.matrix.msu.edu/tunisia/">
+           Tunisia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-924" id="menu-item-924" value="http://exploringafrica.matrix.msu.edu/uganda/">
+          <a href="http://exploringafrica.matrix.msu.edu/uganda/">
+           Uganda
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923" id="menu-item-923" value="http://exploringafrica.matrix.msu.edu/western-sahara/">
+          <a href="http://exploringafrica.matrix.msu.edu/western-sahara/">
+           Western Sahara
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-922" id="menu-item-922" value="http://exploringafrica.matrix.msu.edu/zambia/">
+          <a href="http://exploringafrica.matrix.msu.edu/zambia/">
+           Zambia
+          </a>
+         </option>
+         <option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921" id="menu-item-921" value="http://exploringafrica.matrix.msu.edu/zimbabwe/">
+          <a href="http://exploringafrica.matrix.msu.edu/zimbabwe/">
+           Zimbabwe
+          </a>
+         </option>
+        </select>
+       </div>
+       <script type="text/javascript">
+        /* <![CDATA[ */
+					function onNavChange(dropdown) {
+						if ( dropdown.options[dropdown.selectedIndex].value ) {
+							location.href = dropdown.options[dropdown.selectedIndex].value;
+						}
+					}
+					/* ]]> */
+       </script>
+      </aside>
+     </div>
+    </div>
+    <!-- .inner-wrap -->
+   </div>
+   <!-- #main -->
+   <footer class="clearfix" id="colophon">
+    <div class="footer-widgets-wrapper">
+     <div class="inner-wrap">
+      <div class="footer-widgets-area clearfix">
+       <div class="tg-one-third">
+        <aside class="widget widget_rss" id="rss-4">
+         <h3 class="widget-title">
+          <span>
+           <a class="rsswidget rss-widget-feed" href="http://allafrica.com/tools/headlines/rdf/latest/headlines.rdf">
+            <img alt="RSS" class="rss-widget-icon" height="14" loading="lazy" src="http://exploringafrica.matrix.msu.edu/wp-includes/images/rss.png" style="border:0" width="14"/>
+           </a>
+           <a class="rsswidget rss-widget-title" href="https://allafrica.com/latest/">
+            Africa News
+           </a>
+          </span>
+         </h3>
+         <ul>
+          <li>
+           <a class="rsswidget" href="https://allafrica.com/stories/202302150031.html">
+            Nigeria: Nigeria Eyes £14bn in UK Trade Scheme for Developing Countries
+           </a>
+           <span class="rss-date">
+            February 15, 2023
+           </span>
+          </li>
+          <li>
+           <a class="rsswidget" href="https://allafrica.com/stories/202302150030.html">
+            South Africa: Police Tight-Lipped On Rapper AKA Murder Probe As Father Reveals Plans for 'Dignified Send-Off'
+           </a>
+           <span class="rss-date">
+            February 15, 2023
+           </span>
+          </li>
+          <li>
+           <a class="rsswidget" href="https://allafrica.com/stories/202302150029.html">
+            Zimbabwe: Mnangagwa Disputes Statistics On Zim Economy, Argues It's Larger Than U.S.$27 Billion If Informal Sector Is Considered
+           </a>
+           <span class="rss-date">
+            February 15, 2023
+           </span>
+          </li>
+          <li>
+           <a class="rsswidget" href="https://allafrica.com/stories/202302150028.html">
+            Zimbabwe: Winky D Is Washed Out, Next Person Coming After Me Is Nelson Himself - Says Holy Ten
+           </a>
+           <span class="rss-date">
+            February 15, 2023
+           </span>
+          </li>
+          <li>
+           <a class="rsswidget" href="https://allafrica.com/stories/202302150027.html">
+            Zimbabwe: UN Warns Mnangagwa Against PVO Bill - Urge Him to Turn It Down
+           </a>
+           <span class="rss-date">
+            February 15, 2023
+           </span>
+          </li>
+         </ul>
+        </aside>
+       </div>
+       <div class="tg-one-third">
+        <aside class="widget widget_text" id="text-4">
+         <h3 class="widget-title">
+          <span>
+           Introduction Video
+          </span>
+         </h3>
+         <div class="textwidget">
+          <video controls="">
+           <source autoplay="false" autostart="false" preload="none" src="http://exploringafrica.matrix.msu.edu/wp-content/uploads/2015/09/ExploringAfrica_SiteIntro.mp4" type="video/mp4">
+           </source>
+          </video>
+         </div>
+        </aside>
+       </div>
+       <div class="tg-one-third tg-one-third-last">
+        <aside class="widget widget_text" id="text-6">
+         <h3 class="widget-title">
+          <span>
+           Contact Us
+          </span>
+         </h3>
+         <div class="textwidget">
+          <p>
+           expafr@msu.edu
+          </p>
+          <p>
+           Exploring Africa
+           <br/>
+           African Studies Center
+           <br/>
+           Michigan State University
+           <br/>
+           427 N. Shaw Lane, Room 100
+           <br/>
+           East Lansing, MI 48824
+          </p>
+          <p>
+           Dr. Isaac G. Kalumbu
+           <br/>
+           Assistant Director, Outreach
+           <br/>
+           African Studies Center
+           <br/>
+           517-353-1700
+           <br/>
+           kalumbu@msu.edu
+          </p>
+          <p>
+           <img alt="African Studies Center logo" src="http://exploringafrica.matrix.msu.edu/wp-content/uploads/2015/07/Fancy-Logo.png" style="float:left;" width="150"/>
+          </p>
+          <p>
+           <img alt="Matrix logo" src="http://exploringafrica.matrix.msu.edu/wp-content/uploads/2015/07/Master.png" style="float:right;" width="150"/>
+          </p>
+         </div>
+        </aside>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="footer-socket-wrapper clearfix">
+     <div class="inner-wrap">
+      <div class="footer-socket-area">
+       <div class="copyright">
+        Copyright © 2023
+        <a href="http://exploringafrica.matrix.msu.edu/" title="Exploring Africa">
+         <span>
+          Exploring Africa
+         </span>
+        </a>
+        . All rights reserved.
+        <br/>
+        Theme:
+        <a href="https://themegrill.com/themes/accelerate" rel="nofollow" target="_blank" title="Accelerate">
+         <span>
+          Accelerate
+         </span>
+        </a>
+        by ThemeGrill. Powered by
+        <a href="https://wordpress.org" rel="nofollow" target="_blank" title="WordPress">
+         <span>
+          WordPress
+         </span>
+        </a>
+        .
+       </div>
+       <nav class="footer-menu">
+       </nav>
+      </div>
+     </div>
+    </div>
+   </footer>
+   <a href="#masthead" id="scroll-up">
+    <i class="fa fa-long-arrow-up">
+    </i>
+   </a>
+  </div>
+  <!-- #page -->
+  <script id="accelerate-navigation-js" src="http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/js/navigation.js?ver=6.0.2" type="text/javascript">
+  </script>
+  <script id="accelerate-skip-link-focus-fix-js" src="http://exploringafrica.matrix.msu.edu/wp-content/themes/accelerate/js/skip-link-focus-fix.js?ver=6.0.2" type="text/javascript">
+  </script>
+ </body>
+</html>
