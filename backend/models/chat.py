@@ -1,14 +1,18 @@
 #!/usr/bin/python3
 """The chat class """
 from sqlalchemy import Column,String
+from sqlalchemy.orm import relationship
 from sqlalchemy import ForeignKey
-from models.base_model import Base,BaseModel
+from base_model import BaseModel, session
 
 
-class Chat(Base, BaseModel):
+class Chat(BaseModel):
     __tablename__ = "chats"
-    text = Column(String(500), nullable=False)
-    chat_id =Column(String(60), nullable=False)
     user_id = Column(String(60), ForeignKey('users.id'), nullable=False)
-    response_id = Column(String(60), ForeignKey('resposes.id'), nullable=False)
-    question_id = Column(String(60), ForeignKey('questions.id'), nullable=False)
+
+    user= relationship("User", back_populates='chats') 
+    responses = relationship("Response", back_populates='chat')  
+    questions = relationship("Question", back_populates='chat') 
+
+    def get_chat_by_id(chat_id):
+        return session.query(Chat).filter_by(id=chat_id).first()
