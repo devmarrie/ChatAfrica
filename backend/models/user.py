@@ -1,16 +1,13 @@
-#!/usr/bin/python3
-"""User Class"""
-from sqlalchemy import Column, String
-from models.base_model import Base, BaseModel
-from sqlalchemy.orm import relationship
+from app import db
+from base_model import BaseModel
 
-class User(Base,BaseModel):
+
+class User(BaseModel):
     __tablename__ = 'users'
-    name = Column(String(60), nullable=False)
-    email = Column(String(128), nullable=False)
-    chats = relationship("Chat", cascade='all, delete, delete-orphan',
-                         backref="user")
-    questions = relationship("Question", cascade='all, delete,delete-orphan',
-                             backref="user")
+    
+    username = db.Column(db.String(50), unique=True, nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
 
 
+    
+    

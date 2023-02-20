@@ -1,14 +1,11 @@
-#!/usr/bin/python3
-"""The chat class """
-from sqlalchemy import Column,String
-from sqlalchemy import ForeignKey
-from models.base_model import Base,BaseModel
+from app import db
+from base_model import BaseModel
 
 
-class Chat(Base, BaseModel):
-    __tablename__ = "chats"
-    text = Column(String(500), nullable=False)
-    chat_id =Column(String(60), nullable=False)
-    user_id = Column(String(60), ForeignKey('users.id'), nullable=False)
-    response_id = Column(String(60), ForeignKey('resposes.id'), nullable=False)
-    question_id = Column(String(60), ForeignKey('questions.id'), nullable=False)
+class Chat(BaseModel):
+    __tablename__ = 'chats'
+    
+    maessage = db.Column(db.String(255), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    
+
