@@ -1,4 +1,4 @@
-from app import app,db
+from app import app, db
 from flask import jsonify
 from user import User
 from chat import Chat
