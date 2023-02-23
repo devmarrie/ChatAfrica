@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from app import app, db
 from flask import jsonify
 from user import User
