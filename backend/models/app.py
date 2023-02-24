@@ -89,8 +89,7 @@ def logout():
 
 @app.route("/")
 def index():
-    return "Hello Motherland! Our go-to home for queries about Arica <a href=
-             '/login'><button>Login</button></a>"
+    return "Hello World!<a href='/login'><button>Login</button></a>"
 
 
 @app.route("/protected_area")
