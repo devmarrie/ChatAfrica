@@ -1,19 +1,18 @@
 #!/usr/bin/python3
 """Use's questions about Africa"""
-from sqlalchemy import Column, String
 from base_model import BaseModel
-from sqlalchemy import ForeignKey
-from sqlalchemy.orm import relationship
+from app import db
 
 
 class Question(BaseModel):
-    __tablename__ = "Questions"
-    query = Column(String((128)), nullable=False)
-    user_id = Column(String(60), ForeignKey('users.id'), nullable=False)
-    chat_id = Column(String(60), ForeignKey('chats.id'))
-    response_id = Column(String(60), ForeignKey('responses.id'), nullable=False)
-    
-    response = relationship("Response", back_populates="questions")
-    user = relationship("User", back_populates="questions")
-    chat = relationship("Chat", back_populates="questions")
+    __tablename__ = "questions"
+    data = db.Column(db.String((128)), nullable=False)
+
+    chat_id = db.Column(db.Integer, db.ForeignKey('chats.id'))
+    chat = db.relationship("Chat", back_populates="questions")
+
+    asker_id = db.relationship("User", back_populates="users.id")
+    asker = db.relationship("User", back_populates="questions")
+
+    responses = db.relationship("Response", back_populates="question")
 
