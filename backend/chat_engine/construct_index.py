@@ -5,7 +5,6 @@ from langchain import OpenAI
 from dotenv import load_dotenv
 import sys
 import os
-from IPython.display import Markdown, display
 
 # load environment variables from .env file
 load_dotenv()

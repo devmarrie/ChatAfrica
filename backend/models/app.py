@@ -13,6 +13,9 @@ from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
 import google.auth.transport.requests
 
+# Import models
+import user
+
 
 load_dotenv()
 
@@ -76,8 +79,16 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
+    # user = User(
+    #     google_id=id_info.get("sub"),
+    #     name=id_info.get("name"),
+    #     email=id_info.get("email"),
+    #     avatar_url=id_info.get("picture")
+    # )
+
     session["google_id"] = id_info.get("sub")
     session["name"] = id_info.get("name")
+    session["picture"] = id_info.get("picture")
     return redirect("/protected_area")
 
 
@@ -95,7 +106,7 @@ def index():
 @app.route("/protected_area")
 @login_is_required
 def protected_area():
-    return f"Hello {session['name']}! <br/> <a href='/logout'><button>Logout</button></a>"
+    return f"Hello {session['name']}! <br/> <img src='{session['picture']}' /> <br/> </> <a href='/logout'><button>Logout</button></a>"
 
 
 if __name__ == '__main__':
