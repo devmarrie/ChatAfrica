@@ -1,15 +1,10 @@
-#!/usr/bin/python3
-"""Stores the response sent to users"""
-from sqlalchemy import Column, String, ForeignKey
-from sqlalchemy.orm import relationship
+from app import db
 from base_model import BaseModel
 
 class Response(BaseModel):
-    __tablename__ = "responses"
-    answer = Column(String(800), nullable=False)
-    chat_id = Column(String(60), ForeignKey('chats.id'))
+    content = db.Column(db.Text, nullable=False)
+    chat_id = db.Column(db.String(60), db.ForeignKey('chat.id'), nullable=False)
 
-    chat = relationship("Chat", back_populates="responses")
-    questions = relationship("Question", back_populates="response")
+    
     
 
