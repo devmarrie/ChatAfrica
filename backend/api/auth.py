@@ -3,7 +3,7 @@ import pathlib
 from dotenv import load_dotenv
 
 import requests
-from flask import Flask, session, abort, redirect, request
+from flask import Flask, session, abort, redirect, request, Blueprint, url_for
 from flask_sqlalchemy import SQLAlchemy
 
 # Google OAuth libraries
@@ -13,13 +13,16 @@ from pip._vendor import cachecontrol
 import google.auth.transport.requests
 
 # Import models
-import user
+from .. import db
+from ..models.user import User
 
 
 load_dotenv()
 
 GOOGLE_CLIENT_ID = os.getenv('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
+
+auth = Blueprint('auth', __name__)
 
 """Initializing the application with Google Credentials"""
 app = Flask(__name__)
@@ -37,30 +40,25 @@ flow = Flow.from_client_secrets_file(
 )
 
 
-"""Database configuration"""
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Marrie_719@localhost/chat_africa'
-db = SQLAlchemy(app)
-
-
 """Basic Authentication Routes"""
 def login_is_required(function):
     def wrapper(*args, **kwargs):
         if "google_id" not in session:
             return abort(401)  # Authorization required
         else:
-            return function()
+            return function(*args, **kwargs)
 
     return wrapper
 
 
-@app.route("/login")
+@auth.route("/login")
 def login():
     authorization_url, state = flow.authorization_url()
     session["state"] = state
     return redirect(authorization_url)
 
 
-@app.route("/login/callback")
+@auth.route("/login/callback")
 def callback():
     flow.fetch_token(authorization_response=request.url)
 
@@ -78,35 +76,39 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
-    # user = User(
-    #     google_id=id_info.get("sub"),
-    #     name=id_info.get("name"),
-    #     email=id_info.get("email"),
-    #     avatar_url=id_info.get("picture")
-    # )
+    user = User(
+        google_id=id_info.get("sub"),
+        name=id_info.get("name"),
+        email=id_info.get("email"),
+        avatar_url=id_info.get("picture")
+    )
+
+    db.session.add(user)
+    db.session.commit()
+    print(user)
 
     session["google_id"] = id_info.get("sub")
     session["name"] = id_info.get("name")
     session["picture"] = id_info.get("picture")
-    return redirect("/protected_area")
+    return redirect("/home")
 
 
-@app.route("/logout")
+@auth.route("/logout")
 def logout():
     session.clear()
     return redirect("/")
 
 
-@app.route("/")
+@auth.route("/")
 def index():
     return "Hello World <a href='/login'><button>Login</button></a>"
 
 
-@app.route("/protected_area")
+@auth.route("/protected_area")
 @login_is_required
 def protected_area():
-    return f"Hello {session['name']}! <br/> <img src='{session['picture']}' /> <br/> </> <a href='/logout'><button>Logout</button></a>"
+    return redirect(url_for('views.home'))
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True, load_dotenv=True)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000, debug=True, load_dotenv=True)

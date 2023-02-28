@@ -2,14 +2,16 @@
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from base_model import Base
-from user import User
+from .base_model import BaseModel
+from .user import User
 
 """Conncecting to the database"""
-engine = create_engine('mysql://root:Marrie_719@localhost/chat_africa')
+DB_NAME = "database.db"
+# engine = create_engine('mysql://root:Marrie_719@localhost/chat_africa')
+engine = create_engine('sqlite:///{DB_NAME}')
 
 """Cofiguration"""
-Base.metadata.create_all(engine)
+BaseModel.metadata.create_all(engine)
 Session = sessionmaker(bind=engine, expire_on_commit=False)
 session = Session()
 
