@@ -1,25 +1,49 @@
-#!/usr/bin/python3
-
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from base_model import Base
+from app import app, db
 from user import User
+from question import Question
+from response import Response
+from chat import Chat
 
-"""Conncecting to the database"""
-engine = create_engine('mysql://root:Marrie_719@localhost/chat_africa')
+with app.app_context():
+    db.create_all()
+    """
+    new_user = User(id='wertyoiuy', username='Marrie', email='marrie@google.com')
+    db.session.add(new_user)
+    db.session.commit()
 
-"""Cofiguration"""
-Base.metadata.create_all(engine)
-Session = sessionmaker(bind=engine, expire_on_commit=False)
-session = Session()
+    uche = User(id='wertfsdfb', username='Uche', email='uche@google.com')
+    janeth = User(id='fghjnbvvc', username='Janeth', email='janeth@google.com')
+    db.session.add_all([uche, janeth])
+    db.session.commit()
 
-# Test the User class
-user = User(name='John', email='john@example.com')
-session.add(user)
-session.commit()
+    text = Chat(id='nbvcxgh', user_id='wertyoiuy')
+    db.session.add(text)
+    db.session.commit()
 
-# Close the session
-session.close()
+    ques = Question(id='xcvbnm',  que='what does Africa stand for?', chat_id='nbvcxgh')
+    resp = Response(id='jgfdaas', content='Our  Motherland', chat_id='nbvcxgh')
+    db.session.add_all([ques,resp])
+    db.session.commit()
+
+    ques1 = Question(id='dfgbcf',  que='Africa meaning?', chat_id='nbvcxgh')
+    db.session.add(ques1)
+    db.session.commit()
+
+    teren = Response.query.filter_by(chat_id='nbvcxgh').first()
+    print(teren.content)
+
+    """
+
+    
+
+    
+
+    
+
+    
+    
+   
+
 
 
     
