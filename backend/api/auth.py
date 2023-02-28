@@ -1,3 +1,4 @@
+#!/user/bin/python3
 import os
 import pathlib
 from dotenv import load_dotenv
@@ -101,7 +102,7 @@ def logout():
 
 @auth.route("/")
 def index():
-    return "Hello World <a href='/login'><button>Login</button></a>"
+    return "Hello World!<a href='/login'><button>Login</button></a>"
 
 
 @auth.route("/protected_area")
