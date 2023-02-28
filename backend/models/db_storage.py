@@ -33,6 +33,10 @@ with app.app_context():
     print(teren.content)
 
     """
+    @app.route("/users")
+    def users_list():
+        all_users = db.session.excecute(db.select(User).order_by(User.username)).scalars()
+        return all_users
 
     
 
