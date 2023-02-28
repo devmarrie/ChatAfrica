@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{ session['picture'] }}" alt="{{ session['name'] }}" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-9">
+                <h1>{{ session['name'] }}</h1>
+                <p class="lead">{{ session['email'] }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,9 +1,10 @@
 from .. import db
 from .base_model import BaseModel
 from .question import Question
+from flask_login import UserMixin
 
 
-class User(BaseModel):
+class User(BaseModel, UserMixin):
     __tablename__ = 'users'
     
     google_id = db.Column(db.Integer, unique=True, nullable=False)

@@ -1,7 +1,10 @@
 from .auth import auth, login_is_required
-from flask import Blueprint, jsonify, session
+from flask import Flask, Blueprint, jsonify, session, render_template, redirect, url_for
+from flask_login import current_user, login_required
 from ..models.user import User
 from ..models.chat import Chat
+from ..models.question import Question
+from ..models.response import Response
 
 
 views = Blueprint('views', __name__)
@@ -9,7 +12,20 @@ views = Blueprint('views', __name__)
 @views.route('/home', methods=["GET", "POST"])
 @login_is_required
 def home():
-    return f"Hello {session['name']}! <br/> <img src='{session['picture']}' /> <br/> </> <a href='/logout'><button>Logout</button></a>"
+    # return f"Hello {session['name']}! <br/> <img src='{session['picture']}' /> <br/> </> <a href='/logout'><button>Logout</button></a>"
+    return render_template('home.html')
+
+# @views.route("/", methods=['GET', 'POST'])
+# @login_is_required
+# def home():
+#     render_template('home.html')
+
+# @views.route('/chats/<int:question_id>', methods=['GET', 'POST'])
+# @login_is_required
+# def question():
+#     question = Question.query.get()
+
+
 
 @views.route('/users')
 def get_users():

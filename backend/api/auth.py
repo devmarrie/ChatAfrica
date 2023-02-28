@@ -4,7 +4,7 @@ import pathlib
 from dotenv import load_dotenv
 
 import requests
-from flask import Flask, session, abort, redirect, request, Blueprint, url_for
+from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 # Google OAuth libraries
@@ -77,12 +77,16 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
-    user = User(
-        google_id=id_info.get("sub"),
-        name=id_info.get("name"),
-        email=id_info.get("email"),
-        avatar_url=id_info.get("picture")
-    )
+    # Check if user with same google_id already exists
+    user = User.query.filter_by(google_id=id_info.get("sub")).first()
+
+    if user is None:
+        user = User(
+            google_id=id_info.get("sub"),
+            name=id_info.get("name"),
+            email=id_info.get("email"),
+            avatar_url=id_info.get("picture")
+        )
 
     db.session.add(user)
     db.session.commit()
@@ -97,18 +101,21 @@ def callback():
 @auth.route("/logout")
 def logout():
     session.clear()
-    return redirect("/")
+    return redirect(url_for('auth.login'))
 
 
 @auth.route("/")
 def index():
-    return "Hello World!<a href='/login'><button>Login</button></a>"
-
+    if "google_id" in session:
+        return redirect('/home')
+    else:
+        return "Hello World!<a href='/login'><button>Login</button></a>"
+        # return redirect (url_for('auth.login'))
 
 @auth.route("/protected_area")
 @login_is_required
 def protected_area():
-    return redirect(url_for('views.home'))
+    return render_template("home.html")
 
 
 # if __name__ == '__main__':
