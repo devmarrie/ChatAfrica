@@ -1,38 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ChatAfrica</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Ask me anything about Africa</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Topics</a></li>
-          <li><a href="#">About</a></li>
+{% extends "base.html" %}
+
+    {% block title %}
+
+        Home
+
+    {% endblock %}
+
+    {% block content %}
+
+        <h1 align="center">My Chats</h1>
+
+        <ul class="list-group list-group-flush" id="chats">
+            {% for chat in user.chats %}
+                <li class="list-group-item">
+                    <a class="btn btn-secondary" href="{{ url_for('views.chat', chat_id=chat.id) }}">{{ chat.data }}</a>
+                    <button type="button" class="close" onclick="">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </li>
+            {% endfor %}
         </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="chatbox">
-        <div class="conversation">
-          <div class="bot">
-            <p>Hello! I'm here to answer your questions about Africa. What would you like to know?</p>
-          </div>
-        </div>
-        <form class="message-form">
-          <input type="text" placeholder="Type your message here...">
-          <button type="submit">Send</button>
+
+        <form action="" method="POST">
+            <textarea name="chat" id="chat" cols="30" rows="10" class="form-control"></textarea>
+            <br>
+            <div align="center">
+                <button type="submit" class="btn btn-primary">
+                    Create
+                </button>
+            </div>
         </form>
-      </div>
-    </main>
-    <footer>
-      <p>© 2023 Africa Chatbot. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+
+    {% endblock %}

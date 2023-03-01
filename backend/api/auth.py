@@ -4,7 +4,7 @@ import pathlib
 from dotenv import load_dotenv
 
 import requests
-from flask import Flask, session, abort, redirect, request, Blueprint, url_for
+from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 """ Google OAuth libraries"""
@@ -42,18 +42,6 @@ flow = Flow.from_client_secrets_file(
 )
 
 
-<<<<<<< HEAD:backend/api/auth.py
-=======
-
-"""Database configuration"""
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:!deng_23@localhost/chat_africa'
-app.config['SQLACHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
-
-
->>>>>>> marrie:backend/models/app.py
 """Basic Authentication Routes"""
 def login_is_required(function):
     def wrapper(*args, **kwargs):
@@ -90,12 +78,16 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
-    user = User(
-        google_id=id_info.get("sub"),
-        name=id_info.get("name"),
-        email=id_info.get("email"),
-        avatar_url=id_info.get("picture")
-    )
+    # Check if user with same google_id already exists
+    user = User.query.filter_by(google_id=id_info.get("sub")).first()
+
+    if user is None:
+        user = User(
+            google_id=id_info.get("sub"),
+            name=id_info.get("name"),
+            email=id_info.get("email"),
+            avatar_url=id_info.get("picture")
+        )
 
     db.session.add(user)
     db.session.commit()
@@ -104,31 +96,28 @@ def callback():
     session["google_id"] = id_info.get("sub")
     session["name"] = id_info.get("name")
     session["picture"] = id_info.get("picture")
-    return redirect("/home")
+    return redirect("/")
 
 
 @auth.route("/logout")
 def logout():
     session.clear()
-    return redirect("/")
+    return redirect('/signin')
 
 
-@auth.route("/")
+@auth.route("/signin")
 def index():
-    return "Hello from ChatAfrica!<a href='/login'><button>Login</button></a>"
+    if "google_id" in session:
+        return redirect('/')
+    else:
+        return "Hello World!<a href='/login'><button>Login</button></a>"
+        # return redirect (url_for('auth.login'))
+
+# @auth.route("/protected_area")
+# @login_is_required
+# def protected_area():
+#     return render_template("home.html")
 
 
-@auth.route("/protected_area")
-@login_is_required
-def protected_area():
-    return redirect(url_for('views.home'))
-
-
-<<<<<<< HEAD:backend/api/auth.py
 # if __name__ == '__main__':
 #     app.run(host='0.0.0.0', port=5000, debug=True, load_dotenv=True)
-=======
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True, load_dotenv=True)
-
->>>>>>> marrie:backend/models/app.py
