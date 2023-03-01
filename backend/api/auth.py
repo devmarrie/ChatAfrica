@@ -1,4 +1,4 @@
-#!/user/bin/python3
+
 import os
 import pathlib
 from dotenv import load_dotenv
@@ -7,7 +7,7 @@ import requests
 from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
 
-# Google OAuth libraries
+""" Google OAuth libraries"""
 from google.oauth2 import id_token
 from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
@@ -30,6 +30,7 @@ app = Flask(__name__)
 app.secret_key = GOOGLE_CLIENT_SECRET
 
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1" # to allow Http traffic for local dev
+
 
 GOOGLE_CLIENT_ID = GOOGLE_CLIENT_ID
 client_secrets_file = os.path.join(pathlib.Path(__file__).parent, "client_secret.json")
