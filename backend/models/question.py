@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 """Use's questions about Africa"""
 from .base_model import BaseModel
@@ -15,3 +16,13 @@ class Question(BaseModel):
     response = db.relationship("Response", back_populates="questions")
     user = db.relationship("User", back_populates="questions")
     chats = db.relationship("Chat", back_populates="questions")
+=======
+from app import db
+from base_model import BaseModel
+
+
+class Question(BaseModel):
+    que = db.Column(db.Text, nullable=False)
+    chat_id = db.Column(db.String(60), db.ForeignKey('chat.id'))
+    
+>>>>>>> marrie
