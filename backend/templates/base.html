@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="images/hugging-face-emoji-clipart-lg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyChat - Your AI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" id="login" href="/login">Login</a>
+            <a class="nav-item nav-link" id="signUp" href="/sign-up">Sign Up</a>
+            <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+            <a class="nav-item nav-link" id="newChat" href="/newChat">New Chat</a>
+            <a class="nav-item nav-link" id="about" href="/about">About</a>
+            <a class="nav-item nav-link" id="home" href="/">Home</a>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+      {% block content %}
+      {% endblock %}    
+    </div>
+    <div id="app">
+      <div id="chat_container"></div>
+
+      <div class="chat-header">
+        <h1>Hello there! Welcome to my world.</h1>
+      </div>
+
+      <form>
+        <textarea name="prompt" rows="1" column="1" placeholder="Ask me anything ..."></textarea>
+        <button type="submit"><img src="images/send.svg" alt="send" />
+      </form>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

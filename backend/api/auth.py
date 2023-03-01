@@ -102,7 +102,7 @@ def logout():
 
 @auth.route("/")
 def index():
-    return "Hello World!<a href='/login'><button>Login</button></a>"
+    return "Hello from ChatAfrica!<a href='/login'><button>Login</button></a>"
 
 
 @auth.route("/protected_area")
