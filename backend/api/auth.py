@@ -95,27 +95,27 @@ def callback():
     session["google_id"] = id_info.get("sub")
     session["name"] = id_info.get("name")
     session["picture"] = id_info.get("picture")
-    return redirect("/home")
+    return redirect("/")
 
 
 @auth.route("/logout")
 def logout():
     session.clear()
-    return redirect(url_for('auth.login'))
+    return redirect('/signin')
 
 
-@auth.route("/")
+@auth.route("/signin")
 def index():
     if "google_id" in session:
-        return redirect('/home')
+        return redirect('/')
     else:
         return "Hello World!<a href='/login'><button>Login</button></a>"
         # return redirect (url_for('auth.login'))
 
-@auth.route("/protected_area")
-@login_is_required
-def protected_area():
-    return render_template("home.html")
+# @auth.route("/protected_area")
+# @login_is_required
+# def protected_area():
+#     return render_template("home.html")
 
 
 # if __name__ == '__main__':

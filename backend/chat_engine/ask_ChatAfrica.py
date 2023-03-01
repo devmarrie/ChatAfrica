@@ -5,6 +5,7 @@ from langchain import OpenAI
 from dotenv import load_dotenv
 import sys
 import os
+import pathlib
 
 
 # load environment variables from .env file
@@ -14,14 +15,12 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
-def ask_ChatAfrica():
-    index = GPTSimpleVectorIndex.load_from_disk('index.json')
-    while True:
-        query = input("---- What do you want to ask ChatAfrica Bot?::: \t")
-        if query == "exit":
-            break
-        response = index.query(query, response_mode="compact", verbose=False)
-        print(f"ChatAfrica Bot says: {response.response} \n")
+def ask_ChatAfrica(query):
+    index_path = pathlib.Path(__file__).parent / "index.json"
+    index = GPTSimpleVectorIndex.load_from_disk(str(index_path))
+    response = index.query(query, response_mode="compact", verbose=False)
+    return response.response
+#     print (response.response)
 
-if __name__ == "__main__":
-    ask_ChatAfrica()
+# if __name__ == "__main__":
+#     ask_ChatAfrica(query=sys.argv[1])

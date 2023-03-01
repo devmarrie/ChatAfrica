@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+    {% block title %}
+
+        Chat {{ chat.data }}
+
+    {% endblock %}
+
+    {% block content %}
+
+        <div class="container">
+            <h1 class="text-center my-5">ChatAfrica Bot</h1>
+
+            <ul class="list-group list-group-flush" id="chats">
+                {% for question in chat.questions %}
+                    <li class="list-group-item">
+                        <a class="btn btn-secondary" href="{{ url_for('views.get_questions', question_id=question.id) }}">{{ chat.data }}</a>
+                        <button type="button" class="close" onclick="">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </li>
+                {% endfor %}
+            </ul>
+        
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="question">Ask ChatAfrica Bot:</label>
+                            <input type="text" class="form-control" id="question" name="question" placeholder="Enter your question here...">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ask</button>
+                    </form>
+                </div>
+            </div>
+        
+            {% if response %}
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card my-5">
+                        <div class="card-body">
+                            <h5 class="card-title">ChatAfrica Bot says:</h5>
+                            <p class="card-text">{{ response }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- <h1 align="center">My Chats</h1>
+
+        <ul class="list-group list-group-flush" id="questions">
+            {% for chat in chat.questions %}
+                <li class="list-group-item">
+                    <a class="btn btn-secondary" href="{{ url_for('views.get_chats', user_id=user.id) }}">{{ question.data }}</a>
+                    <button type="button" class="close" onclick="">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <form action="" method="POST">
+            <textarea name="question" id="question" cols="30" rows="10" class="form-control"></textarea>
+            <br>
+            <div align="center">
+                <button type="submit" class="btn btn-primary">
+                    Create
+                </button>
+            </div>
+        </form> -->
+
+    {% endblock %}
