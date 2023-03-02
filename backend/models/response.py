@@ -8,6 +8,5 @@ class Response(BaseModel):
 
     data = db.Column(db.String, nullable=False)
     chat_id = db.Column(db.Integer, db.ForeignKey("chats.id"))
+    question_id = db.Column(db.Integer, db.ForeignKey("questions.id"))
     
-    chats = db.relationship("Chat", back_populates="responses")
-    questions = db.relationship("Question", back_populates="response")

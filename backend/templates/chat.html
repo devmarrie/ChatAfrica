@@ -9,32 +9,20 @@
     {% block content %}
 
         <div class="container">
-            <h1 class="text-center my-5">ChatAfrica Bot</h1>
 
-            <ul class="list-group list-group-flush" id="chats">
-                {% for question in questions %}
-                    <li class="list-group-item">
-                        <a class="btn btn-secondary" href="{{ url_for('views.get_questions') }}">{{ question }}</a>
-                        <button type="button" class="close" onclick="">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </li>
-                {% endfor %}
-            </ul>
-        
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <form method="POST">
-                        <div class="form-group">
-                            <label for="question">Ask ChatAfrica Bot:</label>
-                            <input type="text" class="form-control" id="question" name="question" placeholder="Enter your question here...">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Ask</button>
-                    </form>
-                </div>
-            </div>
-        
-            {% if response %}
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  <form method="POST">
+                      <div class="form-group">
+                          <label for="question"><h5>Ask ChatAfrica:</h5></label>
+                          <input type="text" class="form-control" id="question" name="question" placeholder="Enter your question here...">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Ask</button>
+                  </form>
+              </div>
+          </div>
+      
+          {% if response %}
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="card my-5">
@@ -45,30 +33,47 @@
                     </div>
                 </div>
             </div>
-            {% endif %}
-        </div>
+          {% endif %}
 
-        <!-- <h1 align="center">My Chats</h1>
-
-        <ul class="list-group list-group-flush" id="questions">
-            {% for chat in chat.questions %}
-                <li class="list-group-item">
-                    <a class="btn btn-secondary" href="{{ url_for('views.get_chats', user_id=user.id) }}">{{ question.data }}</a>
-                    <button type="button" class="close" onclick="">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </li>
-            {% endfor %}
-        </ul>
-
-        <form action="" method="POST">
-            <textarea name="question" id="question" cols="30" rows="10" class="form-control"></textarea>
-            <br>
-            <div align="center">
-                <button type="submit" class="btn btn-primary">
-                    Create
-                </button>
+          <div class="container my-5" id="history">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header bg-primary text-white">
+                    Chat History
+                  </div>
+                  <div class="card-body">
+                    {% for question in questions %}
+                      {% if question.response %}
+                        <br>
+                        <h5 class="mb-4">{{ question.data }}</h5>
+                        {% for res in question.response %}
+                          <div class="row mb-3">
+                            <div class="col-md-3">
+                              <div class="card bg-light">
+                                <div class="card-body">
+                                  <p class="card-text">{{ res.id }}</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card bg-light">
+                                <div class="card-body">
+                                  <p class="card-text">{{ res.data }}</p>
+                                  <p class="card-text text-muted">{{ res.created_at }}</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        {% endfor %}
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
             </div>
-        </form> -->
+          </div>
+
+        </div>
 
     {% endblock %}

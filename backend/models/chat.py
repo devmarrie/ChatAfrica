@@ -9,5 +9,5 @@ class Chat(BaseModel):
     data = db.Column(db.String(255), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     
-    questions = db.relationship('Question', back_populates='chats')
-    responses = db.relationship('Response', back_populates='chats')
+    questions = db.relationship('Question', backref='chats')
+    responses = db.relationship('Response', backref='chats')
