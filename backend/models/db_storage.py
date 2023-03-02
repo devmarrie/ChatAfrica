@@ -1,4 +1,7 @@
-from app import app, db
+
+"""
+from app import app
+from database import db
 from user import User
 from question import Question
 from response import Response
@@ -6,7 +9,7 @@ from chat import Chat
 
 with app.app_context():
     db.create_all()
-    """
+
     new_user = User(id='wertyoiuy', username='Marrie', email='marrie@google.com')
     db.session.add(new_user)
     db.session.commit()
@@ -33,10 +36,8 @@ with app.app_context():
     print(teren.content)
 
     """
-    @app.route("/users")
-    def users_list():
-        all_users = db.session.excecute(db.select(User).order_by(User.username)).scalars()
-        return all_users
+
+
 
     
 
