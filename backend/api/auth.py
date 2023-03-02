@@ -96,19 +96,19 @@ def callback():
     session["google_id"] = id_info.get("sub")
     session["name"] = id_info.get("name")
     session["picture"] = id_info.get("picture")
-    return redirect("/")
+    return redirect("/chats")
 
 
 @auth.route("/logout")
 def logout():
     session.clear()
-    return redirect('/signin')
+    return redirect('/')
 
 
-@auth.route("/signin")
+@auth.route("/")
 def index():
     if "google_id" in session:
-        return redirect('/')
+        return redirect('/chats')
     else:
         return "Hello World!<a href='/login'><button>Login</button></a>"
         # return redirect (url_for('auth.login'))

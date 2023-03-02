@@ -14,4 +14,3 @@ class User(BaseModel, UserMixin):
 
 
     chats = db.relationship('Chat', backref='users', lazy=True)
-    questions = db.relationship('Question', backref='users')
