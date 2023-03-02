@@ -5,13 +5,15 @@ from dotenv import load_dotenv
 
 import requests
 from flask import Flask, session, abort, redirect, request
-from flask_sqlalchemy import SQLAlchemy
+from database import db, init_app
 
 """ Google OAuth libraries"""
 from google.oauth2 import id_token
 from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
 import google.auth.transport.requests
+
+
 
 
 load_dotenv()
@@ -22,6 +24,7 @@ GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 """Initializing the application with Google Credentials"""
 app = Flask(__name__)
 app.secret_key = GOOGLE_CLIENT_SECRET
+
 
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1" # to allow Http traffic for local dev
 
@@ -41,7 +44,25 @@ flow = Flow.from_client_secrets_file(
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:!deng_23@localhost/chat_africa'
 app.config['SQLACHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
+# Initialize the db instance with the app instance
+init_app(app)
+
+with app.app_context():
+    db.create_all()
+
+"""Blueprint"""
+import user
+import question
+import response
+import chat
+
+from routes import user_routes,chat_routes,resp_routes, que_routes
+
+
+app.register_blueprint(user_routes)
+app.register_blueprint(que_routes)
+app.register_blueprint(resp_routes)
+app.register_blueprint(chat_routes)
 
 
 
