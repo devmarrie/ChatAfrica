@@ -1,0 +1,159 @@
+/* General styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-toggle {
+      display: block;
+      font-size: 1.5rem;
+      color: #333;
+      cursor: pointer;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 4.5rem;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    }
+  
+    .menu a {
+      padding: 1rem;
+      display: block;
+      border-bottom: 1px solid #eee;
+    }
+  }
+  
+  /* Hero section */
+  
+  .hero {
+    background-image: url('https://example.com/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Features section */
+  
+  .features {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .feature img {
+    width: 50%;
+  }
+  
+  .feature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature p {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  /* CTA section */
+  
+  .cta {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .cta h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .cta button {
+    background-color: #fff;
+    color: #007bff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Footer */
+  
+  
