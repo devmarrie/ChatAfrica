@@ -7,7 +7,7 @@ class Chat(BaseModel):
     __tablename__ = 'chats'
 
     data = db.Column(db.String(255), nullable=False)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    user_id = db.Column(db.String(60), db.ForeignKey('users.id'), nullable=False)
     
     questions = db.relationship('Question', backref='chats')
     responses = db.relationship('Response', backref='chats')

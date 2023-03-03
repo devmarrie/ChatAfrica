@@ -8,7 +8,6 @@ from ..models.response import Response
 from .. import db
 from ..chat_engine.ask_ChatAfrica import ask_ChatAfrica
 
-
 views = Blueprint('views', __name__)
 
 # @views.route('/home')
@@ -19,7 +18,7 @@ views = Blueprint('views', __name__)
 
 
 @views.route('/chats/', methods=["GET", "POST"])
-@login_is_required
+@login_required
 def home():
     if request.method == 'POST':
         chat = request.form.get('chat')
@@ -33,7 +32,7 @@ def home():
 
 
 """Get individual chat"""
-@views.route('/chats/<int:chat_id>', methods=["GET", "POST"])
+@views.route('/chats/<chat_id>', methods=["GET", "POST"])
 @login_required
 def chat(chat_id):
     chat = Chat.query.get(chat_id)

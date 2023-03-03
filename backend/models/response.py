@@ -7,6 +7,6 @@ class Response(BaseModel):
     __tablename__ = "responses"
 
     data = db.Column(db.String, nullable=False)
-    chat_id = db.Column(db.Integer, db.ForeignKey("chats.id"))
-    question_id = db.Column(db.Integer, db.ForeignKey("questions.id"))
+    chat_id = db.Column(db.String(60), db.ForeignKey("chats.id"))
+    question_id = db.Column(db.String(60), db.ForeignKey("questions.id"))
     

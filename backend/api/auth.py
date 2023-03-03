@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import requests
 from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, current_user, login_user
 
 """ Google OAuth libraries"""
 from google.oauth2 import id_token
@@ -16,6 +17,9 @@ import google.auth.transport.requests
 # Import models
 from .. import db
 from ..models.user import User
+
+# generate IDS
+import secrets
 
 
 load_dotenv()
@@ -78,25 +82,35 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
-    # Check if user with same google_id already exists
-    user = User.query.filter_by(google_id=id_info.get("sub")).first()
+    # Check if user with same email already exists
+    user = User.query.filter_by(google_id=id_info.get("email")).first()
+    # Log in user if user exists
+    if user:
+        login_user(user)
+        return (redirect('/chats'))
 
-    if user is None:
-        user = User(
-            google_id=id_info.get("sub"),
-            name=id_info.get("name"),
-            email=id_info.get("email"),
-            avatar_url=id_info.get("picture")
-        )
-
-    db.session.add(user)
+    # Create a new User if email is not in database
+    new_user = User(
+        google_id=id_info.get("sub"),
+        name=id_info.get("name"),
+        email=id_info.get("email"),
+        avatar_url=id_info.get("picture")
+    )
+    db.session.add(new_user)
     db.session.commit()
-    print(user)
 
-    session["google_id"] = id_info.get("sub")
-    session["name"] = id_info.get("name")
-    session["picture"] = id_info.get("picture")
-    return redirect("/chats")
+    # Log in new user
+    login_user(new_user)
+    return redirect('/chats')
+
+    # # db.session.add(user)
+    # # db.session.commit()
+    # # print(user)
+
+    # session["google_id"] = id_info.get("sub")
+    # session["name"] = id_info.get("name")
+    # session["picture"] = id_info.get("picture")
+    # return redirect("/chats")
 
 
 @auth.route("/logout")
@@ -110,8 +124,8 @@ def index():
     if "google_id" in session:
         return redirect('/chats')
     else:
-        return "Hello World!<a href='/login'><button>Login</button></a>"
-        # return redirect (url_for('auth.login'))
+        # return "Hello World!<a href='/login'><button>Login</button></a>"
+        return render_template('landing.html')
 
 # @auth.route("/protected_area")
 # @login_is_required
