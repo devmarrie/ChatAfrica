@@ -42,7 +42,7 @@
             <li class="nav-item">
               <a class="nav-link {% if active == 'home' %}active{% endif %}" aria-current="page" href="#">Home</a>
             </li>
-            {% if session.google_id %}
+            {% if user.is_authenticated %}
             <li class="nav-item">
               <a class="nav-link {% if active == 'profile' %}active{% endif %}" href="#">Profile</a>
             </li>
@@ -55,8 +55,8 @@
             </li>
             {% endif %}
           </ul>
-          {% if session.google_id %}
-          <img src="{{ session.picture }}" alt="User Picture" class="rounded-circle" width="50" height="50">
+          {% if user.is_authenticated %}
+          <img src="{{ user.avatar_url }}" alt="User Picture" class="rounded-circle" width="50" height="50">
           {% endif %}
         </div>
       </div>
