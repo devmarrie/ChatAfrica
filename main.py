@@ -1,3 +1,5 @@
+# Script to create a new Flask application
+
 from backend import create_app
 
 app = create_app()
