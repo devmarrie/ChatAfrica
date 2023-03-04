@@ -1,4 +1,4 @@
-
+# This script handles Google OAuth authentication using Flask Blueprint 
 import os
 import pathlib
 from dotenv import load_dotenv
