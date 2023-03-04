@@ -24,6 +24,7 @@ import secrets
 
 load_dotenv()
 
+# Load environment variables
 GOOGLE_CLIENT_ID = os.getenv('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
@@ -36,6 +37,7 @@ app.secret_key = GOOGLE_CLIENT_SECRET
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1" # to allow Http traffic for local dev
 
 
+# Define Google client ID, secrets file, and flow object for authentication
 GOOGLE_CLIENT_ID = GOOGLE_CLIENT_ID
 client_secrets_file = os.path.join(pathlib.Path(__file__).parent, "client_secret.json")
 
@@ -56,16 +58,18 @@ def login_is_required(function):
 
     return wrapper
 
-
+# Initiate Google Auth
 @auth.route("/login")
 def login():
+    """ Check user login """
     authorization_url, state = flow.authorization_url()
     session["state"] = state
     return redirect(authorization_url)
 
-
+# Route to initiate Google OAuth2 and login user
 @auth.route("/login/callback")
 def callback():
+    """ Initiate Google OAuth2 flow """
     flow.fetch_token(authorization_response=request.url)
 
     if not session["state"] == request.args["state"]:
@@ -113,6 +117,7 @@ def callback():
     # return redirect("/chats")
 
 
+# Route to log out user
 @auth.route("/logout")
 def logout():
     session.clear()
