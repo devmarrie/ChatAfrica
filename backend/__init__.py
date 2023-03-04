@@ -1,5 +1,6 @@
+# Script to create Flask app, sets up SQLAlchemy instance, register blueprints for different API endpoints
+# create database tables, and set up login manager
 
-# Import required libraries
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
@@ -46,7 +47,6 @@ def create_app():
         """ Return app instance """
         return User.query.get(str(id))
 
-    
 
     return app
 
