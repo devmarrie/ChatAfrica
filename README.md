@@ -1,6 +1,6 @@
 # Chat Africa
-This repository contains our end of foundations project called ChatAfrica which allows you to know more about the african culture and its diversity.
-First we prepare the mysql server for the project and create a database called chat_africa.
+This repository contains our end of foundations project called ChatAfrica which is a web-based chatbot application that allows one to know more about the African culture and its diversity.
+First, we prepare the MySQL server for the project and create a database called chat_africa.
 
 ```
 # Run the following coomand and put your password to automate database creation then veiw if it is present.
