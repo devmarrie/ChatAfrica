@@ -1,8 +1,8 @@
 // This script handles the user's input & sends it to the backend.
 // It uses OpenAI's GPT-3 to generate a response & also handles Googgle authentication
 
-import bot from './images/bot.svg'
-import user from './images/user.svg'
+import bot from '/images/bot.svg'
+import user from '/images/user.svg'
 
 
 const form = document.querySelector('form')
