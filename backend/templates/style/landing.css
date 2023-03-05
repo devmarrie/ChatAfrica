@@ -1,101 +1,200 @@
 /* General styling */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans", sans-serif;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    background-color: white;
+    color: #05A9FF;
+}
+  
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400;
+  color: #1A2B48;
+}
+
+p {
+  color: #05A9FF;
+}
+
+.column p {
+  color: white;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+  
+/* Header */
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 4px bg-blue(0,0,0,.1);
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: #0549FF;
+}
+
+  img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(6, 75, 165);
+}
   
-  h1, h2, h3 {
-    margin: 0;
-    font-weight: 400;
+.navbar {
+  overflow: hidden;
+  background-color: rgb(33, 33, 143);
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #1A2B48;
+}
+
+.active {
+  background-color: rgb(31, 31, 116);
+  color: white;
+}
+
+.content {
+  padding: 100px 20px;
+  margin-top: 50px;
+}
+.nav-toggle {
+display: none;
+}
+
+@media screen and (max-width: 768px) {
+.nav-toggle {
+  display: block;
+  font-size: 1.5rem;
+  color: #05A9FF;
+  cursor: pointer;
   }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Header */
-  
-  header {
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .nav-toggle {
-    display: none;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .nav-toggle {
-      display: block;
-      font-size: 1.5rem;
-      color: #333;
-      cursor: pointer;
-    }
-  
-    .menu {
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
       display: none;
-      flex-direction: column;
-      position: fixed;
-      top: 4.5rem;
-      left: 0;
-      background-color: #fff;
-      width: 100%;
-      box-shadow: 0 1px 4px rgba(0,0,0,.1);
-    }
-  
-    .menu a {
-      padding: 1rem;
-      display: block;
-      border-bottom: 1px solid #eee;
-    }
   }
+  .navbar a.icon {
+      float: right;
+      display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+      position: relative;
+  }
+  .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  .dropdown {
+      float: none;
+  }
+  .dropdown-content {
+      position: relative;
+  }
+  .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
   
+.menu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  background-color: #8026f5;
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(33, 33, 143);
+}
+
+.menu a {
+  padding: 1rem;
+  display: block;
+  border-bottom: 1px solid #2b5bf8;
+}
+
   /* Hero section */
   
   .hero {
     background-image: url('https://example.com/hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #05A9FF;
   }
   
   .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #05A9FF;
   }
   
   .hero p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    color: #05A9FF;
   }
   
   /* Features section */
-  
   .features {
-    background-color: #f9f9f9;
+    background-color: #6c8bf3;
     padding: 4rem 0;
   }
   
@@ -121,39 +220,120 @@ body {
   }
   
   /* CTA section */
+.cta {
+  background-color: #007bff;
+  color: red;
+  text-align: center;
+  padding: 4rem 0;
+}
   
-  .cta {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 4rem 0;
+.cta h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+  
+.cta p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+  
+.cta button {
+  background-color: #007bff;
+  color: red;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border-color: cornflowerblue;
+  cursor: pointer;
+}
+  
+.cta button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  color: #007bff;
+}
+  
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #308FE6;
+}
+.button:active {
+  background-color: #0549FF;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: whitesmoke;
+  color: #0549FF;
+}
+    
+img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}    
+
+img:hover{
+  box-shadow: 0 0 2px 1px #0549FF;
+}
+
+.image {
+  flex: 33.33%;
+  padding: 5px;
+}
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
-  
-  .cta h2 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  }
-  
-  .cta p {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-  }
-  
-  .cta button {
-    background-color: #fff;
-    color: #007bff;
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .cta button:hover {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  /* Footer */
-  
-  
+}
