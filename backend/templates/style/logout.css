@@ -1,120 +1,115 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* General styling */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
 
-/* Full-width input fields
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-*/
-
-/* Set a style for all buttons */
-button {
-    background-color: #1A2B48;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #f2f2f2;
-  }
+    background-color: white;
+    color: #05A9FF;
+}
   
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400;
+  color: #1A2B48;
+}
+
+p {
+  color: #05A9FF;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
   
-  .header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
+}
+
+.column p {
+  color: #05A9FF;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
   
-  .main-content {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .form {
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  .form-group label {
+/* Header */
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 4px bg-blue(0,0,0,.1);
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: #0549FF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+  img {
+    border-radius: 50%;
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(6, 75, 165);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  padding: 20px 0 30px 0;
+}
+
+.main-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
   
-  .form-group input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #008CBA;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
+  /* Set a style for all buttons */
+button {
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  display: block;
+  background-color: #008CBA;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
   button:hover {
     opacity: 1;
   }  
-  
-  .google-login {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .google-login a {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #ddd;
-    color: #333;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .google-login a:hover {
-    background-color: #aaa;
-    color: #fff;
-  }
-  
-  .google {
-    background-color: #dd4b39;
-    color: white;
-  }
   
   /* Footer Styles */
   
@@ -125,7 +120,7 @@ body {
   
   .footer p {
     font-size: 14px;
-    color: #999;
+    color: #05A9FF;
   }
   
   /* Change styles for cancel button and signup button on extra small screens */
