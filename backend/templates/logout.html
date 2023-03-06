@@ -30,7 +30,7 @@
         </div>
       </nav>
       <br>
-</head>
+</header>
 <body>
     <div class="container">
         <div class="main-content">
@@ -40,7 +40,7 @@
              <p>Are you sure you want to logout?</p>
              <hr>
              <div class="clearfix">
-                 <button type="submit" class="logoutbtn">Logout</button>
+                 <button class="logoutbtn" href="{{ url_for('auth.logout') }}" type="submit">Logout</button>
              </div>
             </div>
         </div>
@@ -80,6 +80,7 @@
                             their habitats, and conservation techniques. I love ChatAfrica!"
                         </p>
                     </div>
+                </div>
             </section>
         <p>© 2023 ChatAfrica. All rights reserved.</p>
     </div>
