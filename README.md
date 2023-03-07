@@ -74,7 +74,7 @@ Limited knowledge of world and events after 2022
 # Featured Blog Posts
 
 ## Authors
-Janeth Oluebube Eni - [Github](https://github.com/EninetJanice) / [Twitter](https://twitter.com/eninetjanice) / [LinkedIn](https://www.linkedin.com/in/janeth-eni-22a00b135)
-Uchechukwu Samuel Ottah - [Github](https://github.com/coderboy-exe) / [Twitter](https://twitter.com/coderboy-exe) / [LinkedIn](https://www.linkedin.com/in/uchechukwu-ottah-92968a162)
-Marriane Ojuang' - [Github](https://github.com/devmarrie) / [Twitter](https://twitter.com/devmarrie) / [LinkedIn](https://www.linkedin.com/in/marriane-akeyo)
+- Janeth Oluebube Eni - [Github](https://github.com/EninetJanice) / [Twitter](https://twitter.com/eninetjanice) / [LinkedIn](https://www.linkedin.com/in/janeth-eni-22a00b135)
+- Uchechukwu Samuel Ottah - [Github](https://github.com/coderboy-exe) / [Twitter](https://twitter.com/coderboy-exe) / [LinkedIn](https://www.linkedin.com/in/uchechukwu-ottah-92968a162)
+- Marriane Ojuang' - [Github](https://github.com/devmarrie) / [Twitter](https://twitter.com/devmarrie) / [LinkedIn](https://www.linkedin.com/in/marriane-akeyo)
                                
