@@ -1,5 +1,4 @@
-# Script to create a new Flask application
-
+# Starts the application
 from backend import create_app
 
 app = create_app()

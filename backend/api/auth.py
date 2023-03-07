@@ -3,12 +3,12 @@ import os
 import pathlib
 from dotenv import load_dotenv
 
+# flask libraries
 import requests
-from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
-from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, current_user, login_user
+from flask import Flask, session, abort, redirect, request, Blueprint, render_template
+from flask_login import current_user, login_user, logout_user
 
-""" Google OAuth libraries"""
+# Google OAuth libraries
 from google.oauth2 import id_token
 from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
@@ -18,9 +18,6 @@ import google.auth.transport.requests
 from .. import db
 from ..models.user import User
 
-# generate IDS
-import secrets
-
 
 load_dotenv()
 
@@ -28,9 +25,10 @@ load_dotenv()
 GOOGLE_CLIENT_ID = os.getenv('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
+# define blueprint
 auth = Blueprint('auth', __name__)
 
-"""Initializing the application with Google Credentials"""
+# Initializing the application with Google Credentials
 app = Flask(__name__)
 app.secret_key = GOOGLE_CLIENT_SECRET
 
@@ -48,15 +46,18 @@ flow = Flow.from_client_secrets_file(
 )
 
 
-"""Basic Authentication Routes"""
-def login_is_required(function):
-    def wrapper(*args, **kwargs):
-        if "google_id" not in session:
-            return abort(401)  # Authorization required
-        else:
-            return function(*args, **kwargs)
+# """Custom Authentication decorator function"""
+# def login_is_required(function):
+#     def wrapper(*args, **kwargs):
+#         if "google_id" not in session:
+#             return abort(401)  # Authorization required
+#         else:
+#             return function(*args, **kwargs)
 
-    return wrapper
+#     return wrapper
+@auth.route("/sign-in")
+def signin():
+    return render_template("sign_in.html", user=current_user)
 
 # Initiate Google Auth
 @auth.route("/login")
@@ -66,7 +67,7 @@ def login():
     session["state"] = state
     return redirect(authorization_url)
 
-# Route to initiate Google OAuth2 and login user
+# Google OAuth2 callback function to login user
 @auth.route("/login/callback")
 def callback():
     """ Initiate Google OAuth2 flow """
@@ -86,15 +87,15 @@ def callback():
         audience=GOOGLE_CLIENT_ID
     )
 
-    # Check if user with same email already exists
-    # user = User.query.filter_by(google_id=id_info.get("email")).first()
+    # Check if user with same google id already exists
     user = User.query.filter_by(google_id=id_info.get("sub")).first()
+    
     # Log in user if user exists
     if user:
         login_user(user)
         return (redirect('/chats'))
 
-    # Create a new User if email is not in database
+    # Create a new User if google_id is not in database
     new_user = User(
         google_id=id_info.get("sub"),
         name=id_info.get("name"),
@@ -108,22 +109,12 @@ def callback():
     login_user(new_user)
     return redirect('/chats')
 
-    # # db.session.add(user)
-    # # db.session.commit()
-    # # print(user)
-
-    # session["google_id"] = id_info.get("sub")
-    # session["name"] = id_info.get("name")
-    # session["picture"] = id_info.get("picture")
-    # return redirect("/chats")
-
 
 # Route to log out user
 @auth.route("/logout")
 def logout():
-    session.clear()
-    # return redirect('/')
-    return render_template('logout.html')
+    logout_user()
+    return redirect('/')
 
 
 @auth.route("/")
@@ -132,12 +123,7 @@ def index():
         return redirect('/chats')
     else:
         # return "Hello World!<a href='/login'><button>Login</button></a>"
-        return render_template('landing.html')
-
-# @auth.route("/protected_area")
-# @login_is_required
-# def protected_area():
-#     return render_template("home.html")
+        return render_template('landing.html', user=current_user)
 
 
 # if __name__ == '__main__':

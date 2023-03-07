@@ -1,5 +1,5 @@
 # Script to create Flask app, sets up SQLAlchemy instance, register blueprints for different API endpoints
-# create database tables, and set up login manager
+# Initialize database tables, Login Manager
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -39,7 +39,7 @@ def create_app():
 
     """Manage Login"""
     login_manager = LoginManager()
-    login_manager.login_view = 'auth.index'  # Endpoint for login
+    login_manager.login_view = 'auth.index'  # Default app view
     login_manager.init_app(app)
 
     @login_manager.user_loader
