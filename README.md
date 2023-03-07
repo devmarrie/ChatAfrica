@@ -55,6 +55,7 @@ landing
 login
 ![Create Room](https://user-images.githubusercontent.com/71446962/223540428-de166f2a-b81f-4bac-8f45-78cd3c2b8c29.jpg)
 After successful login, input a room name in the container. The name could be anything; a nickname, a question, an expression, etc. Then click on create to a room and begin your chat with ChatAfrica.
+
 ![Chatting Room with ChatAfrica](https://user-images.githubusercontent.com/71446962/223541234-56db7ae3-50c9-42d5-93e8-0559e52990c0.jpg)
 Once you are done, click on the **logout** button to exit the room.
 
