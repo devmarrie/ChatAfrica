@@ -1,3 +1,4 @@
+# This file contains a list of libraries used to build ChatAfrica 
 aiodns==3.0.0
 aiohttp==3.8.4
 aiohttp-retry==2.8.3
@@ -67,3 +68,5 @@ typing_extensions==4.5.0
 urllib3==1.26.3
 Werkzeug==2.2.3
 yarl==1.8.2
+
+pip~=21.3.1

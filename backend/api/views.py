@@ -1,4 +1,4 @@
-from .auth import auth, login_is_required
+from .auth import auth
 from flask import Flask, flash, request, Blueprint, jsonify, session, render_template, redirect, url_for
 from flask_login import current_user, login_required
 from ..models.user import User

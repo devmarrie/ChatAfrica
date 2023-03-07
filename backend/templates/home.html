@@ -13,7 +13,7 @@
         <ul class="list-group list-group-flush" id="chats">
             {% for chat in user.chats %}
                 <li class="list-group-item">
-                    <a class="btn btn-secondary" href="{{ url_for('views.chat', chat_id=chat.id) }}">{{ chat.data }}</a>
+                    <a class="btn btn-primary" href="{{ url_for('views.chat', chat_id=chat.id) }}">{{ chat.data }}</a>
                     <button type="button" class="close" onclick="">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -25,7 +25,7 @@
             <textarea name="chat" id="chat" cols="30" rows="10" class="form-control"></textarea>
             <br>
             <div align="center">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-secondary">
                     Create
                 </button>
             </div>

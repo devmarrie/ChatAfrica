@@ -10,6 +10,11 @@
 
         <div class="container">
 
+          <h2 style="text-align: center">{{chat.data}}</h2>
+          <a href="{{ url_for('views.home') }}" class="btn btn-secondary" style="text-align: center">Back to my chats</a>
+
+          <hr>
+
           <div class="row">
               <div class="col-md-6 offset-md-3">
                   <form method="POST">
@@ -52,10 +57,10 @@
                             <div class="col-md-3">
                               <div class="card bg-light">
                                 <div class="card-body">
-                                  <p class="card-text">{{ res.id }}</p>
+                                    <img src="../static/images/hugging-face-emoji-clipart-lg.png" height="50" width="auto" alt="ChatAfrica Logo"/>
                                 </div>
                               </div>
-                            </div>
+                          </div>
                             <div class="col-md-9">
                               <div class="card bg-light">
                                 <div class="card-body">

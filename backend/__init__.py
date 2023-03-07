@@ -1,42 +1,52 @@
+# Script to create Flask app, sets up SQLAlchemy instance, register blueprints for different API endpoints
+# Initialize database tables, Login Manager
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 
 
+# Create a new SQLAlchemy instance
 db = SQLAlchemy()
+# Set the name of the database file
 DB_NAME = "database.db"
 
+# Function to create a new Flask application instance
 def create_app():
+    """ Create Flask app """
     app = Flask(__name__)
 
-    app.config['SECRET_KEY'] = 'secret'
-    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}' # To be reconfigured with mysql
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    db.init_app(app)
+    # Configure the app's settings
+    app.config['SECRET_KEY'] = 'secret'  # App's secret key
+    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'  # URI for db, to be reconfigured with mysql
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable tracking modifications to improve performance
+    db.init_app(app)  # Initialize the app's SQLAlchemy instance
 
+    # Register the app's blueprints for different API endpoints
     from .api.auth import auth
     from .api.views import views
 
-    app.register_blueprint(auth)
-    app.register_blueprint(views)
+    app.register_blueprint(auth)  # Register the blueprint for authentication-related endpoints
+    app.register_blueprint(views)  # Register the blueprint for views
 
-
+    # Import the app's user model
     from .models.user import User
 
+    # Create the necessary tables in the database
     with app.app_context():
         # db.drop_all()
         db.create_all()
 
     """Manage Login"""
     login_manager = LoginManager()
-    login_manager.login_view = 'auth.index'
+    login_manager.login_view = 'auth.index'  # Default app view
     login_manager.init_app(app)
 
     @login_manager.user_loader
     def load_user(id):
+        """ Return app instance """
         return User.query.get(str(id))
 
-    
 
     return app
 
