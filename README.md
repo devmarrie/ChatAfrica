@@ -16,27 +16,28 @@ These endpoints are stored in the following files or folders:
 
 #### `api`
 This folder contains the following files:
-**auth.py** - It contains the google authentication implementation and the login routes used by the user to login or signup and access various parts of the application.
+
+- **auth.py** - It contains the google authentication implementation and the login routes used by the user to login or signup and access various parts of the application.
 Once the user logs in he/she is directed to the chat page.
 
-**views.py** - contains an implementation of the chats, user and questions  routes. 
+- **views.py** - contains an implementation of the chats, user and questions  routes. 
 
 #### `chat_engine`
 This folder contains the code implementation of how we trained the GPT-3 api with content exclusive to Africa and its connection with our backend.
 
-**content** - this folder contains all the data we used to train our model.
-**ask_ChatAfrica.py** - generates the responses to user's questions.
-**construct_index.py** - constructs an index of text documents using GPT (Generative Pre-trained Transformer) models.
-**index.json** - contains the data used to train gpt-3 continuously and test if it is working perfectly.
+- **content** - this folder contains all the data we used to train our model.
+- **ask_ChatAfrica.py** - generates the responses to user's questions.
+- **construct_index.py** - constructs an index of text documents using GPT (Generative Pre-trained Transformer) models.
+- **index.json** - contains the data used to train gpt-3 continuously and test if it is working perfectly.
 
 #### `models` 
 It contains classes used for creating orms used to define the database tables of this project:
-**base_model.py** - defines an abstract table which is inherited by all the other tables
-**chat.py** - defines the chat table
-**db_storage.py** - testing the database and bringing the tables to life.
-**question.py** - used to create the question table in the database.
-**response.py** - used to create the response table.
-**user.py** - used to create the user table.
+- **base_model.py** - defines an abstract table which is inherited by all the other tables
+- **chat.py** - defines the chat table
+- **db_storage.py** - testing the database and bringing the tables to life.
+- **question.py** - used to create the question table in the database.
+- **response.py** - used to create the response table.
+- **user.py** - used to create the user table.
 ### static
 #### `templates/` directory that contains the frontend files of this project
 ** setup_mysql_chat_africa.sql
