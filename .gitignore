@@ -1,3 +1,4 @@
 .env
+.pyc
 my-env
 backend/api/client_secret.json
