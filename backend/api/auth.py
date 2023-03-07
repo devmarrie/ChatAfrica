@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import requests
 from flask import Flask, session, abort, redirect, request, Blueprint, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, current_user, login_user
+from flask_login import LoginManager, current_user, login_user, logout_user
 
 """ Google OAuth libraries"""
 from google.oauth2 import id_token
@@ -83,13 +83,13 @@ def callback():
     )
 
     # Check if user with same email already exists
-    user = User.query.filter_by(google_id=id_info.get("email")).first()
+    user = User.query.filter_by(google_id=id_info.get("sub")).first()
     # Log in user if user exists
     if user:
         login_user(user)
         return (redirect('/chats'))
 
-    # Create a new User if email is not in database
+    # Create a new User if google_id is not in database
     new_user = User(
         google_id=id_info.get("sub"),
         name=id_info.get("name"),
@@ -115,7 +115,7 @@ def callback():
 
 @auth.route("/logout")
 def logout():
-    session.clear()
+    logout_user()
     return redirect('/')
 
 
