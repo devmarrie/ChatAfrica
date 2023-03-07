@@ -13,7 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
   background: rgb(33, 33, 247);
   display: flex;
   flex-direction: column;
@@ -90,7 +90,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background: #5436DA;
+  background: blue;
 
   display: flex;
   justify-content: center;

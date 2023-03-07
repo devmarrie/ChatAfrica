@@ -166,3 +166,10 @@ body {
       margin-top: 0;
     }
 }
+
+/* Footer Styles */
+  
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}

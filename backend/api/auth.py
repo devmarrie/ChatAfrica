@@ -87,7 +87,8 @@ def callback():
     )
 
     # Check if user with same email already exists
-    user = User.query.filter_by(google_id=id_info.get("email")).first()
+    # user = User.query.filter_by(google_id=id_info.get("email")).first()
+    user = User.query.filter_by(google_id=id_info.get("sub")).first()
     # Log in user if user exists
     if user:
         login_user(user)
@@ -121,7 +122,8 @@ def callback():
 @auth.route("/logout")
 def logout():
     session.clear()
-    return redirect('/')
+    # return redirect('/')
+    return render_template('logout.html')
 
 
 @auth.route("/")
