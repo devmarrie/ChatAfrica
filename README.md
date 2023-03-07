@@ -1,10 +1,13 @@
 # Chat Africa
 This repository contains our end of foundations project called **ChatAfrica** which is a web-based chatbot application that allows one to know more about the African culture and its diversity. The application uses GPT-3 to generate responses and renders it to the user in text format. Other resources used to train the data are found in the folder named [content](https://github.com/devmarrie/ChatAfrica/tree/master/content).
 
-# image 
-![feature3](https://user-images.githubusercontent.com/71446962/223538633-96f73b21-1577-4699-957f-b5211ddc475e.png)
-
 Additional **applications** and **dependencies** used are listed in the [requirement.txt](https://github.com/devmarrie/ChatAfrica/blob/master/requirements.txt) file. The [backend](https://github.com/devmarrie/ChatAfrica/tree/master/backend) folder houses all the tasks carried out at the backend level.
+
+# Overview
+
+
+https://user-images.githubusercontent.com/71446962/223570647-06a146eb-8e5e-41f8-9312-d5b53f25a8af.mp4
+
 
 ## Installation
 * Clone this repository: `git clone "https://github.com//devmarrie/ChatAfrica.git"`
@@ -51,13 +54,14 @@ It contains classes used for creating orms used to define the database tables of
 This file is the entry point of our application. It starts the Flask application.
 
 # Usage
-landing
-login
-![Create Room](https://user-images.githubusercontent.com/71446962/223540428-de166f2a-b81f-4bac-8f45-78cd3c2b8c29.jpg)
-After successful login, input a room name in the container. The name could be anything; a nickname, a question, an expression, etc. Then click on create to a room and begin your chat with ChatAfrica.
+From the home page, click on the **login button** to either sign up or sign in to use the ChatAfrica application. Sign up & sign in is very easy as it is automated with Google authentication (You don't need to stress in imputing your name, password or the likes :) ).
+![room](https://user-images.githubusercontent.com/71446962/223571854-b8038c50-d0cb-43d1-b173-cd50434933dd.png)
 
-![Chatting Room with ChatAfrica](https://user-images.githubusercontent.com/71446962/223541234-56db7ae3-50c9-42d5-93e8-0559e52990c0.jpg)
-Once you are done, click on the **logout** button to exit the room.
+After successful login, input a room name in the container. The name could be anything; a nickname, a question, an expression, etc. Then click on **create** to create a room and begin your conversation with ChatAfrica.
+
+![Chat room and chat history](https://user-images.githubusercontent.com/71446962/223572097-b24567f9-9dc7-4674-97fc-00fe460ab316.png)
+
+ChatAfrica has the ability of retaining your conversation with it. Once you are done, click on the **logout** button to exit the room. You can always log back in, select your created room and view your conversations with the bot. Alternatively, you can continue your chat or create a new room to start another conversation with ChatAfrica.
 
 # Examples
 "What is the capital of Kenya?"
