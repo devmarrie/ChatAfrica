@@ -1,3 +1,4 @@
 .env
 .pyc
 my-env
+gunicorn_config.py
