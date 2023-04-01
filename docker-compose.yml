@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  chatafrica:
+    container_name: chatafrica
+    image: coderboyexe/chatafrica
+    ports:
+      - "5000:5000"
+    build:
+      context: .
+      dockerfile: Dockerfile

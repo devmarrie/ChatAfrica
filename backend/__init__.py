@@ -5,6 +5,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 
+from flask_compress import Compress
 
 # Create a new SQLAlchemy instance
 db = SQLAlchemy()
@@ -15,6 +16,7 @@ DB_NAME = "database.db"
 def create_app():
     """ Create Flask app """
     app = Flask(__name__)
+    Compress(app)
 
     # Configure the app's settings
     app.config['SECRET_KEY'] = 'secret'  # App's secret key
@@ -34,7 +36,7 @@ def create_app():
 
     # Create the necessary tables in the database
     with app.app_context():
-        # db.drop_all()
+        db.drop_all()
         db.create_all()
 
     """Manage Login"""
